@@ -1,0 +1,5 @@
+* El tipo TMedioPago esta vacio, por favor definirlo
+* El tipo TNumeroDoc esta vacio ya que no se cual es la diferencia entre TNumeroDoc y
+TDocumentoIdentificacion
+* El tipo 
+* No se cual es la definicion de TTipoDomicilio, debemos poner mejores nombres jaja

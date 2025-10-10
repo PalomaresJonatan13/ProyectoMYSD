@@ -1,0 +1,7 @@
+2025 - 10 - 09 [fois20]
+
+* Los tipos fueron movidos a la carpeta `Tipos`
+* Nombre de los tipos fueron cambiados a camelCase: TnombreTipo -> TNombreTipo
+* El tipo definido como TDepartamento fue cambiado a TDepartamentoCiudad para reflejar de manera mas precisa la relacion entre departamentos y ciudades
+* TMunicipioLocalidad fue cambiado a tipo derivado ya que depende del valor de TDepartamentoCiudad
+* definicion del proyecto
