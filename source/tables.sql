@@ -1,3 +1,18 @@
+DROP TABLE DepartamentosMunicipios     CASCADE CONSTRAINTS;
+DROP TABLE Direcciones                 CASCADE CONSTRAINTS;
+DROP TABLE Tarjetas                    CASCADE CONSTRAINTS;
+DROP TABLE Usuarios                    CASCADE CONSTRAINTS;
+DROP TABLE Vendedores                  CASCADE CONSTRAINTS;
+DROP TABLE CarritosCompras             CASCADE CONSTRAINTS;
+DROP TABLE HistorialesVisitas          CASCADE CONSTRAINTS;
+DROP TABLE ListasProductosFavoritos    CASCADE CONSTRAINTS;
+DROP TABLE ProductosEnCarrito          CASCADE CONSTRAINTS;
+DROP TABLE ProductosEnHistorialVisitas CASCADE CONSTRAINTS;
+DROP TABLE ProductosEnLista            CASCADE CONSTRAINTS;
+DROP TABLE Productos                   CASCADE CONSTRAINTS;
+DROP TABLE Promociones                 CASCADE CONSTRAINTS;
+DROP TABLE CategoriasProducto          CASCADE CONSTRAINTS;
+
 --                      _               _       _        _    _         
 --   __ _ _ ___ __ _ __(_)___ _ _    __| |___  | |_ __ _| |__| |__ _ ___
 --  / _| '_/ -_) _` / _| / _ \ ' \  / _` / -_) |  _/ _` | '_ \ / _` (_-<
@@ -151,11 +166,12 @@ CREATE UNIQUE INDEX listas_usuario_uniq ON ListasProductosFavoritos(
 
 -- _________________ O/_________________________________________
 --                   O\
+
 CREATE TABLE ProductosEnCarrito (
 	carrito      number not null,
 	producto     number not null,
 	fechaAnadido date   not null,
-	cantidad     number not null,
+	cantidad     number(2, 0) not null,
 
 	CONSTRAINT pk_productosEnCarrito PRIMARY KEY (carrito, producto)
 );
@@ -182,6 +198,7 @@ CREATE TABLE ProductosEnLista (
 
 -- _________________ O/_________________________________________
 --                   O\
+
 CREATE TABLE Productos (
 	idProducto       NUMBER          NOT NULL CONSTRAINT pk_productos PRIMARY KEY,
 	nombre           VARCHAR(20)     NOT NULL,
@@ -197,6 +214,7 @@ CREATE TABLE Productos (
 
 	CONSTRAINT ck_productos_enviogratis CHECK(envioGratis.boolean_ IN ('TRUE', 'FALSE')),
 	CONSTRAINT ck_productos_estado      CHECK(estado.estadoProducto IN ('Activo', 'Pausado', 'Descontinuado'))
+    CONSTRAINT ck_productos_precio      CHECK(precio > 0)
 );
 
 -- _________________ O/_________________________________________
@@ -206,7 +224,9 @@ CREATE TABLE Promociones (
 	producto            NUMBER NOT NULL,
 	fechaInicio         DATE   NOT NULL,
 	fechaFinal          DATE       NULL,
-	descuentoPorcentaje NUMBER NOT NULL
+	descuentoPorcentaje NUMBER NOT NULL,
+    
+    CONSTRAINT ck_promociones_descuentoPorcentaje   CHECK(descuentoPorcentaje between 0 and 100)
 );
 
 -- _________________ O/_________________________________________
@@ -215,31 +235,3 @@ CREATE TABLE CategoriasProducto (
 	nombreCategoria varchar(30) NOT NULL CONSTRAINT pk_categoriaProducto PRIMARY KEY,
 	superCategoria  varchar(30)     NULL
 );
-
---  __________
--- < drops... >
---  ----------
---         \   ^__^
---          \  (oo)\_______
---             (__)\       )\/\
---                 ||----w |
---                 ||     ||
-DROP TABLE DepartamentosMunicipios     CASCADE CONSTRAINTS;
-DROP TABLE Direcciones                 CASCADE CONSTRAINTS;
-DROP TABLE Tarjetas                    CASCADE CONSTRAINTS;
-DROP TABLE Usuarios                    CASCADE CONSTRAINTS;
-DROP TABLE Vendedores                  CASCADE CONSTRAINTS;
-DROP TABLE CarritosCompras             CASCADE CONSTRAINTS;
-DROP TABLE HistorialesVisitas          CASCADE CONSTRAINTS;
-DROP TABLE ListasProductosFavoritos    CASCADE CONSTRAINTS;
-DROP TABLE ProductosEnCarrito          CASCADE CONSTRAINTS;
-DROP TABLE ProductosEnHistorialVisitas CASCADE CONSTRAINTS;
-DROP TABLE ProductosEnLista            CASCADE CONSTRAINTS;
-DROP TABLE Productos                   CASCADE CONSTRAINTS;
-DROP TABLE Promociones                 CASCADE CONSTRAINTS;
-DROP TABLE CategoriasProducto          CASCADE CONSTRAINTS;
-
-DROP INDEX direcciones_uniq;
-DROP INDEX tarjetas_uniq;
-DROP INDEX usuarios_email_uniq;
-DROP INDEX listas_usuario_uniq;

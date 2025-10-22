@@ -282,19 +282,19 @@ INSERT INTO ListasProductosFavoritos (idLista, usuario, nombreLista, fechaCreaci
 
 -- Laura Gómez
 INSERT INTO ListasProductosFavoritos (idLista, usuario, nombreLista, fechaCreacion) VALUES 
-(2, 2, 'Favoritos de LauraG', TO_DATE('2025-10-12', 'YYYY-MM-DD'));
+(2, 2, 'Trabajo', TO_DATE('2025-10-12', 'YYYY-MM-DD'));
 
 -- Carlos Ruiz
 INSERT INTO ListasProductosFavoritos (idLista, usuario, nombreLista, fechaCreacion) VALUES 
-(3, 3, 'Favoritos de CarlosR', TO_DATE('2025-10-15', 'YYYY-MM-DD'));
+(3, 3, 'Halloween y Navidad', TO_DATE('2025-10-15', 'YYYY-MM-DD'));
 
 -- Ana Torres
 INSERT INTO ListasProductosFavoritos (idLista, usuario, nombreLista, fechaCreacion) VALUES 
-(4, 4, 'Favoritos de AnaT', TO_DATE('2025-10-18', 'YYYY-MM-DD'));
+(4, 4, 'Artículos de hogar', TO_DATE('2025-10-18', 'YYYY-MM-DD'));
 
 -- David Morales
 INSERT INTO ListasProductosFavoritos (idLista, usuario, nombreLista, fechaCreacion) VALUES 
-(5, 5, 'Favoritos de DavidM', TO_DATE('2025-10-20', 'YYYY-MM-DD'));
+(5, 5, 'Deporte', TO_DATE('2025-10-20', 'YYYY-MM-DD'));
 
 
 -- _________________ O/_________________________________________
@@ -476,7 +476,7 @@ VALUES (
 	TBoolean('TRUE'),
 	TEstadoProducto('Activo'),
 	'Deportes',
-	9
+	1
 );
 
 INSERT INTO Productos (idProducto, nombre, precio, stock, descripcion, fechaPublicacion, especificaciones, envioGratis, estado, categoria, vendedor)
@@ -491,7 +491,7 @@ VALUES (
 	TBoolean('FALSE'),
 	TEstadoProducto('Activo'),
 	'Deportes',
-	10
+	5
 );
 
 -- _________________ O/_________________________________________
@@ -541,3 +541,4 @@ INSERT INTO ProductosEnCarrito (carrito, producto, fechaAnadido, cantidad) VALUE
 
 INSERT INTO ProductosEnCarrito (carrito, producto, fechaAnadido, cantidad) VALUES 
 (5, 10, TO_DATE('2025-10-20', 'YYYY-MM-DD'), 1);
+
