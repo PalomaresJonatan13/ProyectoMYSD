@@ -1,17 +1,18 @@
-DROP TABLE DepartamentosMunicipios     CASCADE CONSTRAINTS;
-DROP TABLE Direcciones                 CASCADE CONSTRAINTS;
-DROP TABLE Tarjetas                    CASCADE CONSTRAINTS;
-DROP TABLE Usuarios                    CASCADE CONSTRAINTS;
-DROP TABLE Vendedores                  CASCADE CONSTRAINTS;
-DROP TABLE CarritosCompras             CASCADE CONSTRAINTS;
-DROP TABLE HistorialesVisitas          CASCADE CONSTRAINTS;
-DROP TABLE ListasProductosFavoritos    CASCADE CONSTRAINTS;
-DROP TABLE ProductosEnCarrito          CASCADE CONSTRAINTS;
-DROP TABLE ProductosEnHistorialVisitas CASCADE CONSTRAINTS;
-DROP TABLE ProductosEnLista            CASCADE CONSTRAINTS;
-DROP TABLE Productos                   CASCADE CONSTRAINTS;
-DROP TABLE Promociones                 CASCADE CONSTRAINTS;
-DROP TABLE CategoriasProducto          CASCADE CONSTRAINTS;
+DROP TABLE Usuarios                     CASCADE CONSTRAINTS;
+DROP TABLE Ubicaciones                  CASCADE CONSTRAINTS;
+DROP TABLE Direcciones                  CASCADE CONSTRAINTS;
+DROP TABLE Tarjetas                     CASCADE CONSTRAINTS;
+DROP TABLE Vendedores                   CASCADE CONSTRAINTS;
+DROP TABLE Productos                    CASCADE CONSTRAINTS;
+DROP TABLE CarritosCompras              CASCADE CONSTRAINTS;
+DROP TABLE HistorialesVisitas           CASCADE CONSTRAINTS;
+DROP TABLE ListasProductos              CASCADE CONSTRAINTS;
+DROP TABLE ProductosEnCarrito           CASCADE CONSTRAINTS;
+DROP TABLE ProductosEnHistorialVisitas  CASCADE CONSTRAINTS;
+DROP TABLE ProductosEnLista             CASCADE CONSTRAINTS;
+DROP TABLE Promociones                  CASCADE CONSTRAINTS;
+DROP TABLE CategoriasProducto           CASCADE CONSTRAINTS;
+DROP TABLE ProductosEnCategoria         CASCADE CONSTRAINTS;
 
 --                      _               _       _        _    _         
 --   __ _ _ ___ __ _ __(_)___ _ _    __| |___  | |_ __ _| |__| |__ _ ___
@@ -21,157 +22,141 @@ DROP TABLE CategoriasProducto          CASCADE CONSTRAINTS;
 -- Jonatan Palomares Castaneda
 -- Juan Diego Patino Munoz
 
--- note: dado que hasta esta entrega lo unico que podemos hacer es restruicciones valor
--- las cuales son muy 'basicas' aun no se validara que el departamento, municipios y/o
--- localidades sean de verdad y que una permanezca a otra 
-CREATE TABLE DepartamentosMunicipios (
-	idDepartamentoMunicipio  NUMBER               NOT NULL CONSTRAINT pk_departamentoMunicipios PRIMARY KEY,
-	departamento             TDepartamentoCiudad  NOT NULL,
-	municipioLocalidad       TMunicipioLocalidad  NOT NULL
-);
 
--- _________________ O/_________________________________________
---                   O\
-CREATE TABLE Direcciones (
-	idDireccion            NUMBER            NOT NULL CONSTRAINT pk_direcciones PRIMARY KEY,
-	usuario                NUMBER            NOT NULL, -- fk
-	departamentoMunicipio  NUMBER            NOT NULL, -- fk
-	direccion              TDireccion        NOT NULL,
-	barrio                 TBarrio           NOT NULL,
-	apartamentoCasa        TApartamentoCasa      NULL,
-	indicaciones           VARCHAR(300)          NULL,
-	tipoDomicilio          TTipoDomicilio    NOT NULL,
-	nombreContacto         VARCHAR(30)       NOT NULL,
-	telefonoContacto       TTelefono         NOT NULL,
-
-	-- cada numero colombiano empieza con un tres y siempre tiene 10 digitos
-	-- por lo cual necesitamos que el numero de telefono sea mayor o igual a
-	-- 3000000000
-	CONSTRAINT ck_direcciones_tel     CHECK (telefonoContacto.telefono >= 3000000000),
-
-	CONSTRAINT ck_direcciones_tipodom CHECK (tipoDomicilio.tipoDomicilio IN ('Residencial', 'Laboral'))
-);
-
-CREATE UNIQUE INDEX direcciones_uniq ON Direcciones(
-	usuario,
-	direccion.direccion,
-	departamentoMunicipio
-);
-
--- _________________ O/_________________________________________
---                   O\
-CREATE TABLE Tarjetas (
-	idTarjeta        NUMBER NOT       NULL CONSTRAINT pk_tarjetas PRIMARY KEY,
-	nombreTitular    VARCHAR(30)      NOT NULL,
-	fechaVencimiento DATE             NOT NULL,
-	codigoSeguridad  TNumeroSeguridad NOT NULL,
-	tipoDocTitular   TTipoDoc         NOT NULL,
-	numeroDocTitular TNumeroDoc       NOT NULL,
-	tipo             TTipoTarjeta     NOT NULL,
-	numero           TNumeroTarjeta   NOT NULL,
-	usuario          NUMBER           NOT NULL, -- fk
-
-	-- dado que el numero de digitos depende de la tarjeta y aun no podemos hacer
-	-- condicionales lo suficienetmente potentes tenemos que hace el caso basico
-	CONSTRAINT ck_tarjetas_numseg CHECK(codigoSeguridad.numeroSeguridad >= 100),
-
-	CONSTRAINT ck_tarjetas_tipodoc CHECK(tipoDocTitular.tipoDoc IN (
-		'Cedula ciudadania',
-		'Tarjeta de identidad',
-		'Cedula extranjera',
-		'Pasaporte'
-	)),
-
-	CONSTRAINT ck_tarjetas_numdig_nodoc CHECK (numeroDocTitular.numeroDoc >= 1000000),
-	CONSTRAINT ck_tarjetas_tipotarjeta  CHECK (tipo.tipoTarjeta IN ('Credito', 'Debito')),
-	CONSTRAINT ck_tarjetas_tarjetanum   CHECK (numero.numeroTarjeta >= 1000000000000000)
-);
-
-CREATE UNIQUE INDEX tarjetas_uniq ON Tarjetas (
-	numero.numeroTarjeta,
-	usuario
-);
-
--- _________________ O/_________________________________________
---                   O\
-
--- note: en este caso el email no puede funcionar como llave primaria dado que es un tipo
--- definido por nostros, por lo cual usaremos un numero cualquiera no repetido como PK
 CREATE TABLE Usuarios (
-	idUsuario   NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEy,
-	email       TEmail       NOT NULL,
-	nombre      varchar(30)  NOT NULL,
-	telefono    TTelefono    NOT NULL,
-	contrasena  TContrasena  NOT NULL,
-	tipoDoc     TTipoDoc         NULL,
-	numeroDoc   TNumeroDoc       NULL,
+	idUsuario   NUMBER GENERATED ALWAYS AS IDENTITY CONSTRAINT pk_usuarios PRIMARY KEY,
+	email       TEmail          NOT NULL,
+	nombres     VARCHAR2(50)    NOT NULL,
+    apellidos   VARCHAR2(50)    NOT NULL,
+	telefono    TTelefono       NOT NULL,
+	contrasena  TContrasena     NOT NULL,
+	tipoDoc     TTipoDoc        NULL,
+	numeroDoc   TNumeroDoc      NULL,
 
-	CONSTRAINT ck_usuarios_email CHECK (REGEXP_LIKE(email.email, '^[A-Za-z0-9._]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$')),
-	CONSTRAINT ck_usurarios_tel  CHECK (telefono.telefono >= 3000000000),
-	CONSTRAINT ck_usuarios_passw CHECK (
+	CONSTRAINT ck_usuarios_email        CHECK   (REGEXP_LIKE(email.email, '^[A-Za-z0-9._]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$')),
+	CONSTRAINT ck_usuarios_telefono     CHECK   (telefono.telefono BETWEEN 3E9 AND (4E9 - 1)),
+	CONSTRAINT ck_usuarios_contrasena   CHECK   (
 		LENGTH(contrasena.contrasena) >= 8                 AND
 		REGEXP_LIKE(contrasena.contrasena, '[A-Z]')        AND
 		REGEXP_LIKE(contrasena.contrasena, '[a-z]')        AND
 		REGEXP_LIKE(contrasena.contrasena, '[0-9]')        AND
 		REGEXP_LIKE(contrasena.contrasena, '[^A-Za-z0-9]')
 	),
-	CONSTRAINT ck_usuarios_tipodoc CHECK(tipoDoc.tipoDoc IN (
-		'Cedula ciudadania',
-		'Tarjeta de identidad',
-		'Cedula extranjera',
-		'Pasaporte'
-	)),
-	CONSTRAINT ck_usuarios_numdig_nodoc CHECK (numeroDoc.numeroDoc >= 1000000)
+	CONSTRAINT ck_usuarios_tipoDoc      CHECK   (tipoDoc.tipoDoc IN ('CC', 'CE', 'PP')),
+	CONSTRAINT ck_usuarios_numeroDoc    CHECK   (numeroDoc.numeroDoc >= 1E7)
 );
-
-CREATE UNIQUE INDEX usuarios_email_uniq ON Usuarios (
+CREATE UNIQUE INDEX usuarios_email_unique ON Usuarios (
 	email.email
 );
 
 -- _________________ O/_________________________________________
 --                   O\
-CREATE TABLE Vendedores (
-	usuario    NUMBER   NOT NULL CONSTRAINT pk_vendedores PRIMARY KEY,
-	verificado TBoolean NOT NULl,
+CREATE TABLE Ubicaciones (
+	idUbicacion         NUMBER GENERATED ALWAYS AS IDENTITY CONSTRAINT pk_ubicaciones PRIMARY KEY,
+	departamento        VARCHAR2(50)    NOT NULL,
+	municipioLocalidad  VARCHAR2(50)    NOT NULL,
+    barrio              VARCHAR2(50)    NOT NULL
+);
 
-	CONSTRAINT ck_vendedores_verficicado CHECK(verificado.boolean_ IN ('TRUE', 'FALSE'))
+-- _________________ O/_________________________________________
+--                   O\
+CREATE TABLE Direcciones (
+	idDireccion         NUMBER GENERATED ALWAYS AS IDENTITY CONSTRAINT pk_direcciones PRIMARY KEY,
+	usuario             NUMBER            NOT NULL, -- fk
+    direccion           VARCHAR2(100)     NOT NULL,
+	ubicacion           NUMBER            NOT NULL, -- fk
+	apartamentoCasa     VARCHAR2(50)      NULL,
+	indicaciones        VARCHAR2(300)     NULL,
+	nombreContacto      VARCHAR2(30)      NOT NULL,
+	telefonoContacto    TTelefono         NOT NULL,
+    
+    CONSTRAINT uk_direcciones UNIQUE (usuario, direccion, ubicacion),
+	CONSTRAINT ck_direcciones_telefono     CHECK (telefonoContacto.telefono BETWEEN 3E9 AND (4E9 - 1))
+);
+
+-- _________________ O/_________________________________________
+--                   O\
+CREATE TABLE Tarjetas (
+	idTarjeta        NUMBER GENERATED ALWAYS AS IDENTITY CONSTRAINT pk_tarjetas PRIMARY KEY,
+    usuario          NUMBER           NOT NULL, -- fk
+    numero           TNumeroTarjeta   NOT NULL,
+	nombreTitular    VARCHAR2(30)     NOT NULL,
+	fechaVencimiento DATE             NOT NULL,
+	codigoSeguridad  TCodigoSeguridad NOT NULL,
+	tipoDocTitular   TTipoDoc         NOT NULL,
+	numeroDocTitular TNumeroDoc       NOT NULL,
+	tipo             TTipoTarjeta     NOT NULL,
+
+	CONSTRAINT ck_tarjetas_numero CHECK(numero.numeroTarjeta > 0),
+    CONSTRAINT ck_tarjetas_codigoSeguridad CHECK (codigoSeguridad.codigoSeguridad >= 100),
+	CONSTRAINT ck_tarjetas_tipoDocTitular CHECK(tipoDocTitular.tipoDoc IN ('CC', 'CE', 'PP')),
+	CONSTRAINT ck_tarjetas_numeroDocTitular CHECK (numeroDocTitular.numeroDoc >= 1E7),
+	CONSTRAINT ck_tarjetas_tipo  CHECK (tipo.tipoTarjeta IN ('Credito', 'Debito'))
+);
+CREATE UNIQUE INDEX tarjetas_unique ON Tarjetas (
+	numero.numeroTarjeta,
+	usuario
+);
+
+-- _________________ O/_________________________________________
+--                   O\
+CREATE TABLE Vendedores (
+	idVendedor  NUMBER  NOT NULL    CONSTRAINT pk_vendedores PRIMARY KEY -- fk
+);
+
+-- _________________ O/_________________________________________
+--                   O\
+CREATE TABLE Productos (
+	idProducto          NUMBER GENERATED ALWAYS AS IDENTITY CONSTRAINT pk_productos PRIMARY KEY,
+	nombre              VARCHAR2(300)       NOT NULL,
+	precio              NUMBER(10, 2)       NOT NULL,
+	cantidadInventario  NUMBER              NOT NULL,
+	descripcion         VARCHAR2(3000)      NOT NULL,
+	fechaPublicacion    DATE                NOT NULL,
+	especificaciones    VARCHAR2(3000)      NOT NULL,
+	envioGratis         TBoolean            NOT NULL,
+	estado              TEstadoProducto     NOT NULL,
+	categoria           VARCHAR2(30)        NOT NULL, -- fk
+	vendedor            NUMBER              NOT NULL, -- fk
+
+	CONSTRAINT ck_productos_envioGratis CHECK(envioGratis.boolean_ IN ('T', 'F')),
+	CONSTRAINT ck_productos_estado      CHECK(estado.estadoProducto IN ('Activo', 'Pausado', 'Descontinuado')),
+    CONSTRAINT ck_productos_precio      CHECK(precio > 0)
 );
 
 -- _________________ O/_________________________________________
 --                   O\
 CREATE TABLE CarritosCompras (
-	usuario            number NOT NULL CONSTRAINT pk_carritosCompras PRIMARY KEY,
-	ultimaModificacion date   NOT NULL
+	usuario            NUMBER NOT NULL CONSTRAINT pk_carritosCompras PRIMARY KEY,
+	ultimaModificacion DATE   NOT NULL
 );
 
 -- _________________ O/_________________________________________
 --                   O\
 CREATE TABLE HistorialesVisitas (
-	usuario NUMBER NOT NULL CONSTRAINT pk_historialesVisitas PRIMARY KEY
+	usuario NUMBER  NOT NULL    CONSTRAINT pk_historialesVisitas PRIMARY KEY
 );
 
 -- _________________ O/_________________________________________
 --                   O\
-CREATE TABLE ListasProductosFavoritos (
-	idLista       number       NOT NULL CONSTRAINT pk_listasProductosFavoritos PRIMARY KEY,
-	usuario       number       NOT NULL,
-	nombreLista   varchar(50)  NOT NULL,
-	fechaCreacion date         NOT NULL
-);
-
-CREATE UNIQUE INDEX listas_usuario_uniq ON ListasProductosFavoritos(
-	usuario,
-	nombreLista
+CREATE TABLE ListasProductos (
+	idLista         NUMBER          NOT NULL CONSTRAINT pk_listasProductos PRIMARY KEY,
+	usuario         NUMBER          NOT NULL,
+	nombre          VARCHAR2(100)   NOT NULL,
+	fechaCreacion   DATE            NOT NULL,
+    ultimaCreacion  DATE            NOT NULL,
+    
+    CONSTRAINT uk_listasProductos UNIQUE (usuario, nombre)
 );
 
 -- _________________ O/_________________________________________
 --                   O\
 
 CREATE TABLE ProductosEnCarrito (
-	carrito      number not null,
-	producto     number not null,
-	fechaAnadido date   not null,
-	cantidad     number(2, 0) not null,
+	carrito      NUMBER         NOT NULL,
+	producto     NUMBER         NOT NULL,
+	fechaAnadido DATE           NOT NULL,
+	cantidad     NUMBER(2, 0)   NOT NULL,
 
 	CONSTRAINT pk_productosEnCarrito PRIMARY KEY (carrito, producto)
 );
@@ -198,40 +183,31 @@ CREATE TABLE ProductosEnLista (
 
 -- _________________ O/_________________________________________
 --                   O\
-
-CREATE TABLE Productos (
-	idProducto       NUMBER          NOT NULL CONSTRAINT pk_productos PRIMARY KEY,
-	nombre           VARCHAR(20)     NOT NULL,
-	precio           NUMBER(10, 2)   NOT NULL,
-	stock            NUMBER(5)       NOT NULL,
-	descripcion      VARCHAR(1000)   NOT NULL,
-	fechaPublicacion DATE            NOT NULL,
-	especificaciones VARCHAR(500)    NOT NULL,
-	envioGratis      TBoolean        NOT NULL,
-	estado           TEstadoProducto NOT NULL,
-	categoria        VARCHAR(30)     NOT NULL,
-	vendedor         NUMBER          NOT NULL,
-
-	CONSTRAINT ck_productos_enviogratis CHECK(envioGratis.boolean_ IN ('TRUE', 'FALSE')),
-	CONSTRAINT ck_productos_estado      CHECK(estado.estadoProducto IN ('Activo', 'Pausado', 'Descontinuado'))
-    CONSTRAINT ck_productos_precio      CHECK(precio > 0)
-);
-
--- _________________ O/_________________________________________
---                   O\
 CREATE TABLE Promociones (
-	idPromocion         NUMBER NOT NULL CONSTRAINT pk_promociones PRIMARY KEY,
-	producto            NUMBER NOT NULL,
+	idPromocion         NUMBER GENERATED ALWAYS AS IDENTITY CONSTRAINT pk_promociones PRIMARY KEY,
+	producto            NUMBER NOT NULL, -- fk
 	fechaInicio         DATE   NOT NULL,
-	fechaFinal          DATE       NULL,
-	descuentoPorcentaje NUMBER NOT NULL,
+	fechaFinal          DATE   NULL,
+	descuentoPorcentaje TPorcentaje NOT NULL,
     
-    CONSTRAINT ck_promociones_descuentoPorcentaje   CHECK(descuentoPorcentaje between 0 and 100)
+    CONSTRAINT ck_promociones_descuentoPorcentaje   CHECK(
+        descuentoPorcentaje.porcentaje > 0      AND 
+        descuentoPorcentaje.porcentaje < 100
+    )
 );
 
 -- _________________ O/_________________________________________
 --                   O\
 CREATE TABLE CategoriasProducto (
-	nombreCategoria varchar(30) NOT NULL CONSTRAINT pk_categoriaProducto PRIMARY KEY,
-	superCategoria  varchar(30)     NULL
+	nombre VARCHAR2(30) NOT NULL CONSTRAINT pk_categoriasProducto PRIMARY KEY,
+	superCategoria  VARCHAR2(30) NULL -- fk
+);
+
+-- _________________ O/_________________________________________
+--                   O\
+CREATE TABLE ProductosEnCategoria (
+	producto    NUMBER          NOT NULL,
+    categoria   VARCHAR2(30)    NOT NULL,
+    
+    CONSTRAINT pk_productosEnCategoria PRIMARY KEY (producto, categoria)
 );
