@@ -78,16 +78,3 @@ CREATE OR REPLACE TYPE TTipoTarjeta AS OBJECT (
 CREATE OR REPLACE TYPE TBoolean as object (
     boolean_ CHAR(1)
 );
-
-DROP TYPE TContrasena;
-DROP TYPE TEmail;
-DROP TYPE TEstadoProducto;
-DROP TYPE TNumeroDoc;
-DROP TYPE TCodigoSeguridad;
-DROP TYPE TNumeroTarjeta;
-DROP TYPE TPorcentaje;
-DROP TYPE TTelefono;
-DROP TYPE TTipoDoc;
-DROP TYPE TTipoTarjeta;
-DROP TYPE TBoolean;
-

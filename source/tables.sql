@@ -45,7 +45,6 @@ CREATE TABLE Usuarios (
 	CONSTRAINT ck_usuarios_tipoDoc      CHECK   (tipoDoc.tipoDoc IN ('CC', 'CE', 'PP')),
 	CONSTRAINT ck_usuarios_numeroDoc    CHECK   (numeroDoc.numeroDoc >= 1E7)
 );
-
 CREATE UNIQUE INDEX usuarios_email_unique ON Usuarios (
 	email.email
 );
@@ -56,7 +55,8 @@ CREATE TABLE Ubicaciones (
 	idUbicacion         NUMBER GENERATED ALWAYS AS IDENTITY CONSTRAINT pk_ubicaciones PRIMARY KEY,
 	departamento        VARCHAR2(50)    NOT NULL,
 	municipioLocalidad  VARCHAR2(50)    NOT NULL,
-    barrio              VARCHAR2(50)    NOT NULL
+    barrio              VARCHAR2(50)    NOT NULL,
+    CONSTRAINT uk_ubicaciones UNIQUE (departamento, municipioLocalidad, barrio)
 );
 
 -- _________________ O/_________________________________________
@@ -117,7 +117,6 @@ CREATE TABLE Productos (
 	especificaciones    VARCHAR2(3000)      NOT NULL,
 	envioGratis         TBoolean            NOT NULL,
 	estado              TEstadoProducto     NOT NULL,
-	categoria           VARCHAR2(30)        NOT NULL, -- fk
 	vendedor            NUMBER              NOT NULL, -- fk
 
 	CONSTRAINT ck_productos_envioGratis CHECK(envioGratis.boolean_ IN ('T', 'F')),
@@ -145,13 +144,14 @@ CREATE TABLE ListasProductos (
 	usuario         NUMBER          NOT NULL,
 	nombre          VARCHAR2(100)   NOT NULL,
 	fechaCreacion   DATE            NOT NULL,
-	ultimaCreacion  DATE            NOT NULL,
-
-	CONSTRAINT uk_listasProductos UNIQUE (usuario, nombre)
+    ultimaModificacion  DATE            NOT NULL,
+    
+    CONSTRAINT uk_listasProductos UNIQUE (usuario, nombre)
 );
 
 -- _________________ O/_________________________________________
 --                   O\
+
 CREATE TABLE ProductosEnCarrito (
 	carrito      NUMBER         NOT NULL,
 	producto     NUMBER         NOT NULL,
