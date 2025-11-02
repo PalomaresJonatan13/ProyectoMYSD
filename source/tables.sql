@@ -141,7 +141,7 @@ CREATE TABLE HistorialesVisitas (
 -- _________________ O/_________________________________________
 --                   O\
 CREATE TABLE ListasProductos (
-	idLista         NUMBER          NUMBER GENERATED ALWAYS AS IDENTITY CONSTRAINT pk_listasProductos PRIMARY KEY,
+	idLista         NUMBER GENERATED ALWAYS AS IDENTITY CONSTRAINT pk_listasProductos PRIMARY KEY,
 	usuario         NUMBER          NOT NULL,
 	nombre          VARCHAR2(100)   NOT NULL,
 	fechaCreacion   DATE            NOT NULL,
