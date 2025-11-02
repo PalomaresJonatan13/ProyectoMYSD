@@ -924,3 +924,4 @@ BEGIN INSERT INTO CategoriasProducto (nombre,superCategoria) VALUES ('Electróni
 BEGIN INSERT INTO CategoriasProducto (nombre,superCategoria) VALUES ('Celulares','Celulares'); END;
 
 SELECT nombre,superCategoria FROM CategoriasProducto ORDER BY nombre;
+
