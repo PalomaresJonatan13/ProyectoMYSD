@@ -77,3 +77,7 @@ ALTER TABLE ProductosEnCategoria ADD CONSTRAINT fk_productosEnCategoria_categori
 ALTER TABLE CategoriasProducto ADD CONSTRAINT fk_categorias_superCategoria
     FOREIGN KEY (superCategoria) REFERENCES CategoriasProducto(nombre)
     ON DELETE SET NULL;
+    
+    
+ALTER TABLE PROMOCIONES
+ADD CONSTRAINT ck_promociones_duracion CHECK(fechaFinal IS NULL OR (fechaFinal - fechaInicio)*24 >= 4);
