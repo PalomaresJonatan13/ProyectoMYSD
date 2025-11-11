@@ -15,11 +15,11 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dtrimbey1@imdb.com'), 'Darwin', 'Trimbey', TTelefono(3372111800), TContrasena('sC6''BL89F=)L'), TTipoDoc('PP'), TNumeroDoc(5617623483))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('agoodhew2@prlog.org'), 'Arlinda', 'Goodhew', TTelefono(3666313861), TContrasena('zC3_9&1H0'), TTipoDoc('CE'), TNumeroDoc(8347097715))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('agoodhew2@prlog.org'), 'Arlinda', 'Goodhew', TTelefono(3666313861), TContrasena('zC3_901H0'), TTipoDoc('CE'), TNumeroDoc(8347097715))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rgauler3@google.nl'), 'Rosalia', 'Gauler', TTelefono(3433237094), TContrasena('kQ4|''(GUeJdBh'), TTipoDoc('PP'), TNumeroDoc(5994041689))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cyeliashev4@alexa.com'), 'Carlina', 'Yeliashev', TTelefono(3659925526), TContrasena('iU6"<<sN=%W&8G)r'), TTipoDoc('CE'), null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cyeliashev4@alexa.com'), 'Carlina', 'Yeliashev', TTelefono(3659925526), TContrasena('iU6"<<sN=%W08G)r'), TTipoDoc('CE'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bbiagioni5@bloglines.com'), 'Bartram', 'Biagioni', TTelefono(3428805691), TContrasena('oR6(P37*u%'), TTipoDoc('CC'), TNumeroDoc(4123971512))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -31,7 +31,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('vdransfield9@ebay.co.uk'), 'Veda', 'Dransfield', TTelefono(3371328367), TContrasena('pG4~7=,6V?>wP"'''), TTipoDoc('PP'), TNumeroDoc(2769740361))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cmuneelya@cafepress.com'), 'Coriss', 'Muneely', TTelefono(3294727769), TContrasena('sV0%&y|SP7'), TTipoDoc('CC'), TNumeroDoc(5319985023))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cmuneelya@cafepress.com'), 'Coriss', 'Muneely', TTelefono(3294727769), TContrasena('sV0%0y|SP7'), TTipoDoc('CC'), TNumeroDoc(5319985023))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('nbuglassb@fastcompany.com'), 'Nicolle', 'Buglass', TTelefono(3450970661), TContrasena('cW9"ump*\s8KxY<'), TTipoDoc('PP'), TNumeroDoc(9491643847))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -61,7 +61,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('amcelleno@scientificamerican.com'), 'Avery', 'McEllen', TTelefono(3060011798), TContrasena('qM9''*hZZM5nj"TO'), null, TNumeroDoc(714826440))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('brackhamp@cornell.edu'), 'Bing', 'Rackham', TTelefono(3920813817), TContrasena('cX5*8med4FS&8'), TTipoDoc('PP'), TNumeroDoc(3423176981))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('brackhamp@cornell.edu'), 'Bing', 'Rackham', TTelefono(3920813817), TContrasena('cX5*8med4FS08'), TTipoDoc('PP'), TNumeroDoc(3423176981))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mpoleq@home.pl'), 'Madison', 'Pole', TTelefono(3912468857), TContrasena('wD5)o%9K'), TTipoDoc('PP'), TNumeroDoc(9770810789))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -71,15 +71,15 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ahorsteadt@army.mil'), 'Aggi', 'Horstead', TTelefono(3696675922), TContrasena('sB2<P0(7d'), TTipoDoc('PP'), TNumeroDoc(4832369940))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mogavinu@youku.com'), 'Micheil', 'O''Gavin', TTelefono(3715603588), TContrasena('tR4&>UF1={'), null, TNumeroDoc(7804628948))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mogavinu@youku.com'), 'Micheil', 'O''Gavin', TTelefono(3715603588), TContrasena('tR40>UF1={'), null, TNumeroDoc(7804628948))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('pphinnessyv@addtoany.com'), 'Prissie', 'Phinnessy', TTelefono(3659616031), TContrasena('wM4#@X#/@C{&JC|'), TTipoDoc('CE'), TNumeroDoc(1764164404))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('pphinnessyv@addtoany.com'), 'Prissie', 'Phinnessy', TTelefono(3659616031), TContrasena('wM4#@X#/@C{0JC|'), TTipoDoc('CE'), TNumeroDoc(1764164404))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('eeddisw@blogspot.com'), 'Erskine', 'Eddis', TTelefono(3879910054), TContrasena('iO2=\n#=wV'), null, TNumeroDoc(1546607732))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lashlinx@unicef.org'), 'Lynna', 'Ashlin', TTelefono(3221373204), TContrasena('xN3&hQze<d'), TTipoDoc('PP'), TNumeroDoc(2300021694))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lashlinx@unicef.org'), 'Lynna', 'Ashlin', TTelefono(3221373204), TContrasena('xN30hQze<d'), TTipoDoc('PP'), TNumeroDoc(2300021694))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mrumbelowy@shareasale.com'), 'Malchy', 'Rumbelow', TTelefono(3746098307), TContrasena('kW4&XkSL'), TTipoDoc('CE'), TNumeroDoc(118244621))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mrumbelowy@shareasale.com'), 'Malchy', 'Rumbelow', TTelefono(3746098307), TContrasena('kW40XkSL'), TTipoDoc('CE'), TNumeroDoc(118244621))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dglendzerz@domainmarket.com'), 'Darby', 'Glendzer', TTelefono(3319249893), TContrasena('gP9`<5kAnV'), TTipoDoc('CE'), TNumeroDoc(6151420148))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -97,7 +97,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('braraty16@sourceforge.net'), 'Brandy', 'Raraty', TTelefono(3611235791), TContrasena('oB0?I|o=\D2'), TTipoDoc('PP'), TNumeroDoc(7183415420))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cwhitwham17@cbslocal.com'), 'Celinka', 'Whitwham', TTelefono(3758660204), TContrasena('dN6@oHwnJ''(j|T4&'), TTipoDoc('CE'), TNumeroDoc(3783159956))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cwhitwham17@cbslocal.com'), 'Celinka', 'Whitwham', TTelefono(3758660204), TContrasena('dN6@oHwnJ''(j|T40'), TTipoDoc('CE'), TNumeroDoc(3783159956))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cstillgoe18@wikipedia.org'), 'Cob', 'Stillgoe', TTelefono(3999787040), TContrasena('dF4#X%3ei,'), TTipoDoc('PP'), TNumeroDoc(1516460238))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -127,9 +127,9 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dhurley1l@godaddy.com'), 'Delora', 'Hurley', TTelefono(3722685174), TContrasena('rP1/CmP\mWT,''4B>'), TTipoDoc('PP'), TNumeroDoc(4368869943))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('hmanuelli1m@dagondesign.com'), 'Hortense', 'Manuelli', TTelefono(3187603991), TContrasena('aW9<4GA}&'), TTipoDoc('CE'), TNumeroDoc(5374864498))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('hmanuelli1m@dagondesign.com'), 'Hortense', 'Manuelli', TTelefono(3187603991), TContrasena('aW9<4GA}0'), TTipoDoc('CE'), TNumeroDoc(5374864498))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('phoolaghan1n@intel.com'), 'Pieter', 'Hoolaghan', TTelefono(3416843713), TContrasena('vB4&Ue%L/GccF'), null, null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('phoolaghan1n@intel.com'), 'Pieter', 'Hoolaghan', TTelefono(3416843713), TContrasena('vB40Ue%L/GccF'), null, null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ecolquit1o@freewebs.com'), 'Edgardo', 'Colquit', TTelefono(3111156005), TContrasena('jW6)xm2+lYanzhf|'), TTipoDoc('PP'), TNumeroDoc(3119055348))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -153,7 +153,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mgarthside1y@quantcast.com'), 'Malina', 'Garthside', TTelefono(3222352369), TContrasena('aI5@4Kx(('), TTipoDoc('CC'), TNumeroDoc(6867135323))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bdallaghan1z@irs.gov'), 'Bret', 'Dallaghan', TTelefono(3956867131), TContrasena('nV8}=BIQiT&z3*'), TTipoDoc('PP'), TNumeroDoc(9789250606))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bdallaghan1z@irs.gov'), 'Bret', 'Dallaghan', TTelefono(3956867131), TContrasena('nV8}=BIQiT0z3*'), TTipoDoc('PP'), TNumeroDoc(9789250606))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cjentzsch20@mayoclinic.com'), 'Christina', 'Jentzsch', TTelefono(3629665820), TContrasena('pU7=4MTL'), TTipoDoc('CC'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -171,7 +171,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jdedrick27@webeden.co.uk'), 'Jacob', 'Dedrick', TTelefono(3491799211), TContrasena('fF3*DJLx/'), null, TNumeroDoc(7999089222))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lmacdougall28@pinterest.com'), 'Leupold', 'MacDougall', TTelefono(3482721434), TContrasena('pG0.&9"Yaq2dk'), TTipoDoc('PP'), TNumeroDoc(8094395062))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lmacdougall28@pinterest.com'), 'Leupold', 'MacDougall', TTelefono(3482721434), TContrasena('pG0.09"Yaq2dk'), TTipoDoc('PP'), TNumeroDoc(8094395062))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ekrebs29@java.com'), 'Elsey', 'Krebs', TTelefono(3577827422), TContrasena('iX6@!S''kcp0kfVJE'), null, null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -207,7 +207,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('sawcock2p@chicagotribune.com'), 'Sergei', 'Awcock', TTelefono(3615470470), TContrasena('yQ9_pyMC|S%.i'), TTipoDoc('CC'), TNumeroDoc(8978616440))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ahellikes2q@ca.gov'), 'Abran', 'Hellikes', TTelefono(3811477548), TContrasena('sL2+z&W\'), TTipoDoc('PP'), TNumeroDoc(693331088))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ahellikes2q@ca.gov'), 'Abran', 'Hellikes', TTelefono(3811477548), TContrasena('sL2+z0W\'), TTipoDoc('PP'), TNumeroDoc(693331088))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('vcleaton2r@mac.com'), 'Valli', 'Cleaton', TTelefono(3541792511), TContrasena('hH9/3E)s'), TTipoDoc('PP'), TNumeroDoc(5514420145))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -229,9 +229,9 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bnewtown30@dot.gov'), 'Beau', 'Newtown', TTelefono(3283553054), TContrasena('xU4<''=m$,''>)*'), TTipoDoc('CE'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ggrzeszczyk31@home.pl'), 'Gaby', 'Grzeszczyk', TTelefono(3656547667), TContrasena('xK7''d1j\+0m&aI3f'), TTipoDoc('PP'), TNumeroDoc(156895265))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ggrzeszczyk31@home.pl'), 'Gaby', 'Grzeszczyk', TTelefono(3656547667), TContrasena('xK7''d1j\+0m0aI3f'), TTipoDoc('PP'), TNumeroDoc(156895265))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tgittus32@tinyurl.com'), 'Travus', 'Gittus', TTelefono(3226189230), TContrasena('rP6,#1&Ws'), null, TNumeroDoc(6193733217))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tgittus32@tinyurl.com'), 'Travus', 'Gittus', TTelefono(3226189230), TContrasena('rP6,#10Ws'), null, TNumeroDoc(6193733217))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('gchick33@sbwire.com'), 'Gillian', 'Chick', TTelefono(3426780026), TContrasena('eX8~Zr}A@e=hr'), TTipoDoc('PP'), TNumeroDoc(2745538351))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -283,7 +283,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mingman3r@msn.com'), 'Muriel', 'Ingman', TTelefono(3144185914), TContrasena('lE3_6wf?f'), TTipoDoc('CE'), TNumeroDoc(1913568283))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('blesper3s@dagondesign.com'), 'Brocky', 'Lesper', TTelefono(3236464303), TContrasena('eL0&demr9wP\!t3'), TTipoDoc('CE'), TNumeroDoc(8405879531))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('blesper3s@dagondesign.com'), 'Brocky', 'Lesper', TTelefono(3236464303), TContrasena('eL00demr9wP\!t3'), TTipoDoc('CE'), TNumeroDoc(8405879531))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('fpallaske3t@unc.edu'), 'Fanni', 'Pallaske', TTelefono(3190710870), TContrasena('eR9(+wIg'), TTipoDoc('CC'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -315,7 +315,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bgoschalk47@barnesandnoble.com'), 'Buddy', 'Goschalk', TTelefono(3650794154), TContrasena('cI8@Ay\''K~'), TTipoDoc('CE'), TNumeroDoc(4070990453))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('evondracek48@quantcast.com'), 'Elisa', 'Vondracek', TTelefono(3071209179), TContrasena('jW1_CCpFc8&iLjg'), TTipoDoc('CC'), TNumeroDoc(7256251083))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('evondracek48@quantcast.com'), 'Elisa', 'Vondracek', TTelefono(3071209179), TContrasena('jW1_CCpFc80iLjg'), TTipoDoc('CC'), TNumeroDoc(7256251083))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jpaddell49@jiathis.com'), 'Jessika', 'Paddell', TTelefono(3560932031), TContrasena('pD3/*@v*'), TTipoDoc('PP'), TNumeroDoc(5842782578))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -333,7 +333,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('oboughtflower4g@shutterfly.com'), 'Olly', 'Boughtflower', TTelefono(3107602505), TContrasena('vL4?*2g!'), TTipoDoc('CE'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bsunshine4h@biblegateway.com'), 'Bonni', 'Sunshine', TTelefono(3444836996), TContrasena('eW3{%Sj&'), TTipoDoc('PP'), TNumeroDoc(5950480653))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bsunshine4h@biblegateway.com'), 'Bonni', 'Sunshine', TTelefono(3444836996), TContrasena('eW3{%Sj0'), TTipoDoc('PP'), TNumeroDoc(5950480653))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bscheffler4i@jimdo.com'), 'Bonny', 'Scheffler', TTelefono(3003828980), TContrasena('kM5=eB$,'), TTipoDoc('CC'), TNumeroDoc(3439397563))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -351,11 +351,11 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ghinckes4p@e-recht24.de'), 'Garner', 'Hinckes', TTelefono(3888825330), TContrasena('cM3"bODlKy'), null, TNumeroDoc(1854799109))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('fvogele4q@macromedia.com'), 'Faber', 'Vogele', TTelefono(3127502453), TContrasena('cX5&O8A&''3z|=B'), TTipoDoc('CC'), TNumeroDoc(2163910498))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('fvogele4q@macromedia.com'), 'Faber', 'Vogele', TTelefono(3127502453), TContrasena('cX50O8A0''3z|=B'), TTipoDoc('CC'), TNumeroDoc(2163910498))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('wstormont4r@123-reg.co.uk'), 'Willi', 'Stormont', TTelefono(3782488861), TContrasena('nI5,OaAPv5EJk\'), TTipoDoc('CE'), TNumeroDoc(9286352183))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('baitken4s@1und1.de'), 'Barrie', 'Aitken', TTelefono(3073977708), TContrasena('oN8}&Lp*`l,|J0_'), TTipoDoc('CC'), TNumeroDoc(4506810585))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('baitken4s@1und1.de'), 'Barrie', 'Aitken', TTelefono(3073977708), TContrasena('oN8}0Lp*`l,|J0_'), TTipoDoc('CC'), TNumeroDoc(4506810585))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lblaksley4t@ifeng.com'), 'Lari', 'Blaksley', TTelefono(3593355765), TContrasena('aZ9/o4<pA@G'''), TTipoDoc('CC'), TNumeroDoc(1572881318))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -367,7 +367,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cstenner4x@mit.edu'), 'Clovis', 'Stenner', TTelefono(3237224185), TContrasena('mC7$H?+8_I6ZjX"'), TTipoDoc('CC'), TNumeroDoc(404279735))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('maveray4y@gnu.org'), 'Merrile', 'Averay', TTelefono(3489088723), TContrasena('jJ8\q&6IwOEG\%}~'), TTipoDoc('CE'), TNumeroDoc(6819108341))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('maveray4y@gnu.org'), 'Merrile', 'Averay', TTelefono(3489088723), TContrasena('jJ8\q06IwOEG\%}~'), TTipoDoc('CE'), TNumeroDoc(6819108341))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('agreenhalgh4z@theatlantic.com'), 'Anthia', 'Greenhalgh', TTelefono(3573423276), TContrasena('jU2#lxvGgPgHwK7'), TTipoDoc('CC'), TNumeroDoc(3118959506))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -399,7 +399,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ctape5d@deviantart.com'), 'Carolyn', 'Tape', TTelefono(3675616418), TContrasena('yB6><MqL8lN'), TTipoDoc('PP'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tsymon5e@aboutads.info'), 'Tallie', 'Symon', TTelefono(3929008551), TContrasena('mX4$T&AHd9J}u'), TTipoDoc('CC'), null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tsymon5e@aboutads.info'), 'Tallie', 'Symon', TTelefono(3929008551), TContrasena('mX4$T0AHd9J}u'), TTipoDoc('CC'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jbordiss5f@economist.com'), 'Jacquette', 'Bordiss', TTelefono(3143405373), TContrasena('vU0=0=3Oh1pD6t'), TTipoDoc('PP'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -433,7 +433,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ciacomi5u@craigslist.org'), 'Cozmo', 'Iacomi', TTelefono(3567808365), TContrasena('pM6>D)%5"`A'), TTipoDoc('CC'), TNumeroDoc(4882991093))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mgoodley5v@icq.com'), 'Moreen', 'Goodley', TTelefono(3715813359), TContrasena('qE5&2j=/}l1WaEX'), null, null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mgoodley5v@icq.com'), 'Moreen', 'Goodley', TTelefono(3715813359), TContrasena('qE502j=/}l1WaEX'), null, null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('apodmore5w@disqus.com'), 'Alanson', 'Podmore', TTelefono(3881472041), TContrasena('bL6#nU)''R'), TTipoDoc('CE'), TNumeroDoc(3966652178))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -471,7 +471,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mattwool6d@cbc.ca'), 'Mel', 'Attwool', TTelefono(3835965400), TContrasena('zQ1.u{U)'), TTipoDoc('CE'), TNumeroDoc(9128726667))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bcaudle6e@alibaba.com'), 'Brod', 'Caudle', TTelefono(3357506974), TContrasena('pD3)/IQ%*&I%Z''_'), TTipoDoc('CE'), TNumeroDoc(3014596934))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bcaudle6e@alibaba.com'), 'Brod', 'Caudle', TTelefono(3357506974), TContrasena('pD3)/IQ%*0I%Z''_'), TTipoDoc('CE'), TNumeroDoc(3014596934))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('slantry6f@latimes.com'), 'Shelton', 'Lantry', TTelefono(3454982681), TContrasena('cO4"><pH8v>T'), TTipoDoc('CE'), TNumeroDoc(7398394702))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -483,9 +483,9 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('demmatt6j@php.net'), 'Duffie', 'Emmatt', TTelefono(3607076941), TContrasena('pY3\`{i}'), TTipoDoc('CE'), TNumeroDoc(4296517971))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('gmoffett6k@exblog.jp'), 'Gale', 'Moffett', TTelefono(3825462109), TContrasena('yN1''Bbm&j%('), TTipoDoc('CE'), TNumeroDoc(4763784688))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('gmoffett6k@exblog.jp'), 'Gale', 'Moffett', TTelefono(3825462109), TContrasena('yN1''Bbm0j%('), TTipoDoc('CE'), TNumeroDoc(4763784688))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cosant6l@google.com'), 'Christyna', 'Osant', TTelefono(3654515264), TContrasena('tY7&ilRa0H%$+'), TTipoDoc('PP'), TNumeroDoc(1646410702))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cosant6l@google.com'), 'Christyna', 'Osant', TTelefono(3654515264), TContrasena('tY70ilRa0H%$+'), TTipoDoc('PP'), TNumeroDoc(1646410702))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('awimbridge6m@va.gov'), 'Aksel', 'Wimbridge', TTelefono(3972318069), TContrasena('dF4.deeK.Vm'), TTipoDoc('CE'), TNumeroDoc(624595021))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -533,7 +533,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dvanzon78@barnesandnoble.com'), 'Delcine', 'Van Zon', TTelefono(3585123028), TContrasena('lQ7=(<RknQBM9C#T'), TTipoDoc('CE'), TNumeroDoc(6128708340))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lstrettle79@sitemeter.com'), 'Lauralee', 'Strettle', TTelefono(3765806601), TContrasena('kO0`Tq9e0&b'), TTipoDoc('CE'), TNumeroDoc(3860541748))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lstrettle79@sitemeter.com'), 'Lauralee', 'Strettle', TTelefono(3765806601), TContrasena('kO0`Tq9e00b'), TTipoDoc('CE'), TNumeroDoc(3860541748))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mnoriega7a@dedecms.com'), 'Matthaeus', 'Noriega', TTelefono(3373757868), TContrasena('oZ0*4"a({*cj}eu'), TTipoDoc('CE'), TNumeroDoc(4447279072))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -557,7 +557,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('orubrow7k@reference.com'), 'Ora', 'Rubrow', TTelefono(3921864323), TContrasena('eB5@tR4uuh$Q<U'), TTipoDoc('PP'), TNumeroDoc(8453213464))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lgrishmanov7l@webeden.co.uk'), 'Lebbie', 'Grishmanov', TTelefono(3062896183), TContrasena('oS4&zBUB}Jq,bGQ'), TTipoDoc('CE'), TNumeroDoc(5162479070))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lgrishmanov7l@webeden.co.uk'), 'Lebbie', 'Grishmanov', TTelefono(3062896183), TContrasena('oS40zBUB}Jq,bGQ'), TTipoDoc('CE'), TNumeroDoc(5162479070))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ireichert7m@artisteer.com'), 'Igor', 'Reichert', TTelefono(3252451622), TContrasena('vU3=Asp`'), TTipoDoc('PP'), TNumeroDoc(4755812385))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -609,7 +609,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mbusse8a@hao123.com'), 'Marven', 'Busse', TTelefono(3846266033), TContrasena('iD0?Bmyy,D$$X'), null, TNumeroDoc(6670491313))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('omcarthur8b@slate.com'), 'Omar', 'McArthur', TTelefono(3271423844), TContrasena('nW0+|bRSY{&7*_'), TTipoDoc('CC'), TNumeroDoc(3128671854))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('omcarthur8b@slate.com'), 'Omar', 'McArthur', TTelefono(3271423844), TContrasena('nW0+|bRSY{07*_'), TTipoDoc('CC'), TNumeroDoc(3128671854))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ctroillet8c@stumbleupon.com'), 'Curr', 'Troillet', TTelefono(3783019590), TContrasena('lR1.c0naId`N}'), TTipoDoc('PP'), TNumeroDoc(4886030985))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -619,7 +619,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rpidcock8f@bandcamp.com'), 'Robin', 'Pidcock', TTelefono(3556173776), TContrasena('lU4.JtpfkQ.N{l0'), TTipoDoc('PP'), TNumeroDoc(4530951940))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tdeluze8g@elegantthemes.com'), 'Torre', 'Deluze', TTelefono(3197434654), TContrasena('jJ5,&GoX'), null, TNumeroDoc(9552858371))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tdeluze8g@elegantthemes.com'), 'Torre', 'Deluze', TTelefono(3197434654), TContrasena('jJ5,0GoX'), null, TNumeroDoc(9552858371))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lmoncarr8h@statcounter.com'), 'Lianna', 'Moncarr', TTelefono(3440098629), TContrasena('uT1{R26YrjY0A2#'), TTipoDoc('CE'), TNumeroDoc(64351203))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -637,11 +637,11 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bparlot8o@mail.ru'), 'Bartholemy', 'Parlot', TTelefono(3869098231), TContrasena('qB7.rOW,@X.0'), TTipoDoc('CC'), TNumeroDoc(370133851))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rmcelmurray8p@ustream.tv'), 'Reta', 'McElmurray', TTelefono(3532729429), TContrasena('oJ9%k%&/6'), TTipoDoc('CC'), TNumeroDoc(5719870566))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rmcelmurray8p@ustream.tv'), 'Reta', 'McElmurray', TTelefono(3532729429), TContrasena('oJ9%k%0/6'), TTipoDoc('CC'), TNumeroDoc(5719870566))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('chanse8q@dagondesign.com'), 'Carrissa', 'Hanse', TTelefono(3646118563), TContrasena('zA9&/xw.H4}"'), TTipoDoc('PP'), TNumeroDoc(1556115418))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('chanse8q@dagondesign.com'), 'Carrissa', 'Hanse', TTelefono(3646118563), TContrasena('zA90/xw.H4}"'), TTipoDoc('PP'), TNumeroDoc(1556115418))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ffaint8r@hexun.com'), 'Frederigo', 'Faint', TTelefono(3643602039), TContrasena('kX4&G>~~O%'), TTipoDoc('PP'), TNumeroDoc(4329608905))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ffaint8r@hexun.com'), 'Frederigo', 'Faint', TTelefono(3643602039), TContrasena('kX40G>~~O%'), TTipoDoc('PP'), TNumeroDoc(4329608905))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('kstoneman8s@un.org'), 'Krista', 'Stoneman', TTelefono(3046216822), TContrasena('lI7.(qq(Bx_~y'), TTipoDoc('CC'), TNumeroDoc(8089269517))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -655,7 +655,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('sgawne8x@friendfeed.com'), 'Simeon', 'Gawne', TTelefono(3690359591), TContrasena('vH0"xmvN!+ti})K'), TTipoDoc('CE'), TNumeroDoc(3403308834))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tpresley8y@hp.com'), 'Temp', 'Presley', TTelefono(3423541353), TContrasena('lL8#RXx.M4W&+).d'), TTipoDoc('CE'), TNumeroDoc(7110172121))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tpresley8y@hp.com'), 'Temp', 'Presley', TTelefono(3423541353), TContrasena('lL8#RXx.M4W0+).d'), TTipoDoc('CE'), TNumeroDoc(7110172121))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('abuzin8z@apple.com'), 'Ashlee', 'Buzin', TTelefono(3664048189), TContrasena('uW4~@Xc)'), TTipoDoc('CE'), TNumeroDoc(4721990372))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -731,7 +731,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cconstance9z@geocities.com'), 'Christophorus', 'Constance', TTelefono(3903486362), TContrasena('kU5=105T}4Qi'), TTipoDoc('CC'), TNumeroDoc(2141459802))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tdohra0@comsenz.com'), 'Toma', 'Dohr', TTelefono(3724279468), TContrasena('sX5,Wid&'), TTipoDoc('CC'), TNumeroDoc(169909959))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tdohra0@comsenz.com'), 'Toma', 'Dohr', TTelefono(3724279468), TContrasena('sX5,Wid0'), TTipoDoc('CC'), TNumeroDoc(169909959))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bsackura1@hugedomains.com'), 'Beckie', 'Sackur', TTelefono(3972845070), TContrasena('iY1''QjnJm7'), TTipoDoc('CE'), TNumeroDoc(4189934631))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -743,7 +743,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ocanetea5@facebook.com'), 'Olivier', 'Canete', TTelefono(3370876745), TContrasena('oO7}.*j4gh!d'), TTipoDoc('CC'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('hformbya6@cnn.com'), 'Hannie', 'Formby', TTelefono(3803609021), TContrasena('lX2&gebac''QTa('), TTipoDoc('CC'), null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('hformbya6@cnn.com'), 'Hannie', 'Formby', TTelefono(3803609021), TContrasena('lX20gebac''QTa('), TTipoDoc('CC'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('aclampea7@skyrock.com'), 'Andreana', 'Clampe', TTelefono(3607760456), TContrasena('vE2`\ms{'), TTipoDoc('PP'), TNumeroDoc(3847532220))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -751,7 +751,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('asutora9@techcrunch.com'), 'Aldus', 'Sutor', TTelefono(3483132575), TContrasena('wJ4+hYCQF'), TTipoDoc('CC'), TNumeroDoc(8112424689))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('eterbeekaa@opensource.org'), 'Erwin', 'Terbeek', TTelefono(3062093996), TContrasena('hQ6&%PVV,cG!rV'), TTipoDoc('CE'), TNumeroDoc(2463219913))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('eterbeekaa@opensource.org'), 'Erwin', 'Terbeek', TTelefono(3062093996), TContrasena('hQ60%PVV,cG!rV'), TTipoDoc('CE'), TNumeroDoc(2463219913))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('sjecockab@forbes.com'), 'Sigismond', 'Jecock', TTelefono(3472992806), TContrasena('bP8!He*=m'), TTipoDoc('CC'), TNumeroDoc(9998946311))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -759,7 +759,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('spetricekad@ifeng.com'), 'Selestina', 'Petricek', TTelefono(3438466847), TContrasena('oY7\AaSs'), TTipoDoc('CC'), TNumeroDoc(3312803759))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lslowlyae@wordpress.com'), 'Loraine', 'Slowly', TTelefono(3151093428), TContrasena('lL4@{%j/K&ufaPF'), TTipoDoc('CE'), null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lslowlyae@wordpress.com'), 'Loraine', 'Slowly', TTelefono(3151093428), TContrasena('lL4@{%j/K0ufaPF'), TTipoDoc('CE'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bturneraf@mysql.com'), 'Bernard', 'Turner', TTelefono(3561580679), TContrasena('aV8`?)}d'), null, TNumeroDoc(5311077728))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -767,7 +767,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cfeaviourah@sourceforge.net'), 'Chicky', 'Feaviour', TTelefono(3900893089), TContrasena('kS7<VO,(M'), TTipoDoc('CE'), TNumeroDoc(7313400680))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jlogesai@tamu.edu'), 'Jeane', 'Loges', TTelefono(3368088187), TContrasena('gU4#&fSmWE'), TTipoDoc('PP'), TNumeroDoc(9888103877))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jlogesai@tamu.edu'), 'Jeane', 'Loges', TTelefono(3368088187), TContrasena('gU4#0fSmWE'), TTipoDoc('PP'), TNumeroDoc(9888103877))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('eskyrmaj@theglobeandmail.com'), 'Erin', 'Skyrm', TTelefono(3670184535), TContrasena('yW5"Z)U4kO'), TTipoDoc('CC'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -781,9 +781,9 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('olodemannao@blogtalkradio.com'), 'Oralle', 'Lodemann', TTelefono(3058179216), TContrasena('pY1\e>J(f%'), TTipoDoc('CE'), TNumeroDoc(5421264446))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mdavydychevap@artisteer.com'), 'Marvin', 'Davydychev', TTelefono(3036413814), TContrasena('iR3<`R''h&1G'), TTipoDoc('CC'), TNumeroDoc(7496638337))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mdavydychevap@artisteer.com'), 'Marvin', 'Davydychev', TTelefono(3036413814), TContrasena('iR3<`R''h01G'), TTipoDoc('CC'), TNumeroDoc(7496638337))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('gredferneaq@smugmug.com'), 'Georas', 'Redferne', TTelefono(3550872853), TContrasena('sJ1''I&d*zE6.vAS'), null, TNumeroDoc(2712580482))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('gredferneaq@smugmug.com'), 'Georas', 'Redferne', TTelefono(3550872853), TContrasena('sJ1''I0d*zE6.vAS'), null, TNumeroDoc(2712580482))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ivanderlindear@theglobeandmail.com'), 'Iolanthe', 'Van der Linde', TTelefono(3858777350), TContrasena('eO5<nf?|,OaV'), TTipoDoc('CE'), TNumeroDoc(1604015734))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -795,7 +795,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('gboardav@istockphoto.com'), 'Gerry', 'Board', TTelefono(3613399119), TContrasena('cA6$5Vt0I"'), TTipoDoc('CC'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ssouchaw@ucsd.edu'), 'Sherwood', 'Souch', TTelefono(3919500356), TContrasena('zG6=v&l`?WMe'), TTipoDoc('PP'), null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ssouchaw@ucsd.edu'), 'Sherwood', 'Souch', TTelefono(3919500356), TContrasena('zG6=v0l`?WMe'), TTipoDoc('PP'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dcaldronax@baidu.com'), 'Didi', 'Caldron', TTelefono(3287436018), TContrasena('xL0~SWdsE'), TTipoDoc('CE'), TNumeroDoc(3503831021))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -809,7 +809,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ehelleckasb2@mit.edu'), 'Erna', 'Helleckas', TTelefono(3070342544), TContrasena('vG2`\=9PzNc(_x'), TTipoDoc('CC'), TNumeroDoc(8046431214))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bshakshaftb3@booking.com'), 'Bamby', 'Shakshaft', TTelefono(3149150342), TContrasena('gT6&YIux{l`cX*'), TTipoDoc('CC'), null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bshakshaftb3@booking.com'), 'Bamby', 'Shakshaft', TTelefono(3149150342), TContrasena('gT60YIux{l`cX*'), TTipoDoc('CC'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mmantrippb4@dedecms.com'), 'Malia', 'Mantripp', TTelefono(3664570805), TContrasena('xO8\_7`)4GA_0y'), null, TNumeroDoc(6638066238))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -841,7 +841,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cpemblebi@princeton.edu'), 'Carrissa', 'Pemble', TTelefono(3478084619), TContrasena('eJ3`zDYOW+dl.V'), TTipoDoc('CE'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lpostiansbj@meetup.com'), 'Licha', 'Postians', TTelefono(3492750785), TContrasena('dD2&7hCIH3'), TTipoDoc('CE'), TNumeroDoc(239694449))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lpostiansbj@meetup.com'), 'Licha', 'Postians', TTelefono(3492750785), TContrasena('dD207hCIH3'), TTipoDoc('CE'), TNumeroDoc(239694449))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ajeggobk@gov.uk'), 'Annadiane', 'Jeggo', TTelefono(3791926551), TContrasena('pO9|e0i5H'), null, TNumeroDoc(7605008000))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -859,17 +859,17 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('darnaobr@clickbank.net'), 'Devy', 'Arnao', TTelefono(3014106831), TContrasena('gQ4$mXz2/Dth'), TTipoDoc('PP'), TNumeroDoc(6535748069))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('fstollenhofbs@rambler.ru'), 'Farlee', 'Stollenhof', TTelefono(3402713683), TContrasena('kS9/jI&|oDN'), null, TNumeroDoc(5068953344))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('fstollenhofbs@rambler.ru'), 'Farlee', 'Stollenhof', TTelefono(3402713683), TContrasena('kS9/jI0|oDN'), null, TNumeroDoc(5068953344))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jbundockbt@technorati.com'), 'Jaymie', 'Bundock', TTelefono(3535855054), TContrasena('kV1#_!W52A{CH1<Y'), TTipoDoc('PP'), TNumeroDoc(879405144))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('trippinbu@nature.com'), 'Talyah', 'Rippin', TTelefono(3885568074), TContrasena('gG6$!+&y=M?y_%x'), TTipoDoc('CC'), TNumeroDoc(8995002899))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('trippinbu@nature.com'), 'Talyah', 'Rippin', TTelefono(3885568074), TContrasena('gG6$!+0y=M?y_%x'), TTipoDoc('CC'), TNumeroDoc(8995002899))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('abengocheabv@jimdo.com'), 'Alejandro', 'Bengochea', TTelefono(3072644613), TContrasena('hP3}aDFKsSAEu$q'), TTipoDoc('PP'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('qoppybw@twitter.com'), 'Quinn', 'Oppy', TTelefono(3584688532), TContrasena('eP3&&%Y7%{'), TTipoDoc('CE'), TNumeroDoc(389843385))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('qoppybw@twitter.com'), 'Quinn', 'Oppy', TTelefono(3584688532), TContrasena('eP300%Y7%{'), TTipoDoc('CE'), TNumeroDoc(389843385))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('smelloybx@cam.ac.uk'), 'Simonne', 'Melloy', TTelefono(3420221343), TContrasena('bI6$"lj\&&'), TTipoDoc('CE'), TNumeroDoc(7987056766))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('smelloybx@cam.ac.uk'), 'Simonne', 'Melloy', TTelefono(3420221343), TContrasena('bI6$"lj\00'), TTipoDoc('CE'), TNumeroDoc(7987056766))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lgensavageby@netscape.com'), 'Lu', 'Gensavage', TTelefono(3093727596), TContrasena('cY3|WK"9N(Qr!tF'), null, TNumeroDoc(6966481591))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -879,13 +879,13 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('gpescottc1@angelfire.com'), 'Ginnie', 'Pescott', TTelefono(3602145454), TContrasena('sX3*,aTnb6''2'), TTipoDoc('PP'), TNumeroDoc(1315704282))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tsheircliffec2@discuz.net'), 'Thomasin', 'Sheircliffe', TTelefono(3345774156), TContrasena('mN7`sa&5b(7!'), TTipoDoc('CC'), TNumeroDoc(3506190813))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tsheircliffec2@discuz.net'), 'Thomasin', 'Sheircliffe', TTelefono(3345774156), TContrasena('mN7`sa05b(7!'), TTipoDoc('CC'), TNumeroDoc(3506190813))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tmundallc3@msu.edu'), 'Tansy', 'Mundall', TTelefono(3109474238), TContrasena('fR7`yc1|w7J'), TTipoDoc('PP'), TNumeroDoc(7544811804))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rcotsfordc4@springer.com'), 'Robenia', 'Cotsford', TTelefono(3377878915), TContrasena('xF5(hf#<u4HcDjwV'), null, TNumeroDoc(9648166429))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cvangeffenc5@histats.com'), 'Caroljean', 'Van Geffen', TTelefono(3884173650), TContrasena('eQ7<#l&{o`wr\k9a'), TTipoDoc('CC'), TNumeroDoc(981699351))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cvangeffenc5@histats.com'), 'Caroljean', 'Van Geffen', TTelefono(3884173650), TContrasena('eQ7<#l0{o`wr\k9a'), TTipoDoc('CC'), TNumeroDoc(981699351))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('emckernc6@mtv.com'), 'Elias', 'McKern', TTelefono(3424560331), TContrasena('hM8%#Lfvi'), null, TNumeroDoc(4718096196))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -893,13 +893,13 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('nhritzkoc8@jugem.jp'), 'Norry', 'Hritzko', TTelefono(3864380590), TContrasena('gT3\5N=DCB'), TTipoDoc('CE'), TNumeroDoc(7695355156))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('qbursnellc9@washington.edu'), 'Quentin', 'Bursnell', TTelefono(3783765667), TContrasena('aU1,#S=wb&oe'), null, TNumeroDoc(430468512))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('qbursnellc9@washington.edu'), 'Quentin', 'Bursnell', TTelefono(3783765667), TContrasena('aU1,#S=wb0oe'), null, TNumeroDoc(430468512))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('csarchwellca@w3.org'), 'Corinna', 'Sarchwell', TTelefono(3803351626), TContrasena('tR0&u,U3'), TTipoDoc('CE'), TNumeroDoc(5129469456))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('csarchwellca@w3.org'), 'Corinna', 'Sarchwell', TTelefono(3803351626), TContrasena('tR00u,U3'), TTipoDoc('CE'), TNumeroDoc(5129469456))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cmabercb@nyu.edu'), 'Cly', 'Maber', TTelefono(3763731706), TContrasena('gV8{)>uPA`gN'), TTipoDoc('CE'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('hrennycc@ifeng.com'), 'Hamlin', 'Renny', TTelefono(3948626917), TContrasena('gQ3&5i{a,'), TTipoDoc('CC'), TNumeroDoc(5823640585))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('hrennycc@ifeng.com'), 'Hamlin', 'Renny', TTelefono(3948626917), TContrasena('gQ305i{a,'), TTipoDoc('CC'), TNumeroDoc(5823640585))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rhercockcd@chron.com'), 'Roze', 'Hercock', TTelefono(3518463616), TContrasena('nQ9(iN"$u(EXAVgK'), TTipoDoc('CE'), TNumeroDoc(5187910465))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -919,7 +919,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('fclaworthcl@topsy.com'), 'Flint', 'Claworth', TTelefono(3753616332), TContrasena('lM0_nb#t@fUPn'), TTipoDoc('PP'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('zedardscm@multiply.com'), 'Zechariah', 'Edards', TTelefono(3738204938), TContrasena('jB2)M>&pg~?U'), TTipoDoc('CC'), null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('zedardscm@multiply.com'), 'Zechariah', 'Edards', TTelefono(3738204938), TContrasena('jB2)M>0pg~?U'), TTipoDoc('CC'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('helancn@redcross.org'), 'Horatius', 'Elan', TTelefono(3877873654), TContrasena('qH4.@OTmUyU'), TTipoDoc('CC'), TNumeroDoc(9284940038))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -931,7 +931,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dpenniellcr@soup.io'), 'Dirk', 'Penniell', TTelefono(3129660412), TContrasena('zA6{|H`4Y'), TTipoDoc('CC'), TNumeroDoc(1100922220))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('idoweycs@cam.ac.uk'), 'Israel', 'Dowey', TTelefono(3160519736), TContrasena('xT6",lviIA2&pz.7'), TTipoDoc('CC'), TNumeroDoc(51427742))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('idoweycs@cam.ac.uk'), 'Israel', 'Dowey', TTelefono(3160519736), TContrasena('xT6",lviIA20pz.7'), TTipoDoc('CC'), TNumeroDoc(51427742))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('snutleyct@instagram.com'), 'Simeon', 'Nutley', TTelefono(3073612373), TContrasena('yI0#D7E5#h(g<ne'), TTipoDoc('PP'), TNumeroDoc(7176998759))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -975,7 +975,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('fmaclucaisdd@twitter.com'), 'Fairfax', 'MacLucais', TTelefono(3803970457), TContrasena('jC8~}nk`'), TTipoDoc('PP'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jdufourde@networksolutions.com'), 'Justinian', 'Dufour', TTelefono(3113817520), TContrasena('cF5?=u!>Qh8&>{='), TTipoDoc('CE'), TNumeroDoc(8226271821))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jdufourde@networksolutions.com'), 'Justinian', 'Dufour', TTelefono(3113817520), TContrasena('cF5?=u!>Qh80>{='), TTipoDoc('CE'), TNumeroDoc(8226271821))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dbeendf@domainmarket.com'), 'Dagmar', 'Been', TTelefono(3197799665), TContrasena('tN1>hbjio#'), TTipoDoc('CE'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1043,7 +1043,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ecouplandeb@ehow.com'), 'Eal', 'Coupland', TTelefono(3274421149), TContrasena('pD3>daj*r+UA'), TTipoDoc('CE'), TNumeroDoc(5284935752))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ewontnerec@ameblo.jp'), 'Elinore', 'Wontner', TTelefono(3061829970), TContrasena('nV1}b*Ff&j$n!'), TTipoDoc('CE'), TNumeroDoc(4793345343))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ewontnerec@ameblo.jp'), 'Elinore', 'Wontner', TTelefono(3061829970), TContrasena('nV1}b*Ff0j$n!'), TTipoDoc('CE'), TNumeroDoc(4793345343))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ztapleyed@ihg.com'), 'Zena', 'Tapley', TTelefono(3343270229), TContrasena('rR3%WUs0H'), TTipoDoc('CE'), TNumeroDoc(4692791570))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1059,13 +1059,13 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dmacmeanmaej@bravesites.com'), 'Dael', 'MacMeanma', TTelefono(3177970848), TContrasena('sU8,fw/B'), TTipoDoc('CE'), TNumeroDoc(6890555987))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('alayingek@ebay.co.uk'), 'Alisa', 'Laying', TTelefono(3879436919), TContrasena('wD1&Y%m~fiqk'), TTipoDoc('CC'), TNumeroDoc(7750375007))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('alayingek@ebay.co.uk'), 'Alisa', 'Laying', TTelefono(3879436919), TContrasena('wD10Y%m~fiqk'), TTipoDoc('CC'), TNumeroDoc(7750375007))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ogonetel@pinterest.com'), 'Oren', 'Gonet', TTelefono(3221987521), TContrasena('uZ3?/t/2fF'), null, TNumeroDoc(3593595937))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('aguerreroem@constantcontact.com'), 'Annabel', 'Guerrero', TTelefono(3192007459), TContrasena('gL1~_Mf\K#lf)'), TTipoDoc('CE'), TNumeroDoc(9712673915))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bslaynyen@cornell.edu'), 'Barnie', 'Slayny', TTelefono(3249713987), TContrasena('eL0&Ob)2'), TTipoDoc('CE'), null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bslaynyen@cornell.edu'), 'Barnie', 'Slayny', TTelefono(3249713987), TContrasena('eL00Ob)2'), TTipoDoc('CE'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('wcalderaeo@gnu.org'), 'Wallas', 'Caldera', TTelefono(3623222171), TContrasena('sW1>q7zI'), TTipoDoc('CC'), TNumeroDoc(5380380283))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1099,11 +1099,11 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ncrumleyf3@quantcast.com'), 'North', 'Crumley', TTelefono(3897302643), TContrasena('mL7,U9@<4{#5dt'), TTipoDoc('PP'), TNumeroDoc(547416225))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('clordf4@wikia.com'), 'Cherianne', 'Lord', TTelefono(3937490833), TContrasena('vF1`X0q5PU&lLu#'), TTipoDoc('CC'), TNumeroDoc(1619316679))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('clordf4@wikia.com'), 'Cherianne', 'Lord', TTelefono(3937490833), TContrasena('vF1`X0q5PU0lLu#'), TTipoDoc('CC'), TNumeroDoc(1619316679))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dcongrevef5@gizmodo.com'), 'Derry', 'Congreve', TTelefono(3551206931), TContrasena('eI4+H&Qe(fRI?M5'), TTipoDoc('PP'), null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dcongrevef5@gizmodo.com'), 'Derry', 'Congreve', TTelefono(3551206931), TContrasena('eI4+H0Qe(fRI?M5'), TTipoDoc('PP'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('glatourf6@yellowpages.com'), 'Gaspar', 'Latour', TTelefono(3126170821), TContrasena('cY8&\Wv91vC'), TTipoDoc('CC'), TNumeroDoc(4777261341))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('glatourf6@yellowpages.com'), 'Gaspar', 'Latour', TTelefono(3126170821), TContrasena('cY80\Wv91vC'), TTipoDoc('CC'), TNumeroDoc(4777261341))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('crichfieldf7@biblegateway.com'), 'Carina', 'Richfield', TTelefono(3229629395), TContrasena('gC9}q{xc30O1ZubQ'), TTipoDoc('CC'), TNumeroDoc(2260026677))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1131,7 +1131,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('weydelfj@multiply.com'), 'Ware', 'Eydel', TTelefono(3898277807), TContrasena('lX9|W8h=lm'), TTipoDoc('CE'), TNumeroDoc(5503119497))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('brosenfelderfk@studiopress.com'), 'Bettye', 'Rosenfelder', TTelefono(3853278256), TContrasena('zV7(HGL&SL*e'), TTipoDoc('CE'), TNumeroDoc(5842154412))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('brosenfelderfk@studiopress.com'), 'Bettye', 'Rosenfelder', TTelefono(3853278256), TContrasena('zV7(HGL0SL*e'), TTipoDoc('CE'), TNumeroDoc(5842154412))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('uwinnyfl@lulu.com'), 'Ulberto', 'Winny', TTelefono(3317551382), TContrasena('zJ1%?U*J7Oyt4'), TTipoDoc('CC'), TNumeroDoc(4032914314))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1153,9 +1153,9 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('eheninghamfu@nationalgeographic.com'), 'Etheline', 'Heningham', TTelefono(3520208407), TContrasena('xG4.OsppENP$2'), TTipoDoc('CC'), TNumeroDoc(7543375055))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('kmunbyfv@bbc.co.uk'), 'Kelvin', 'Munby', TTelefono(3123255707), TContrasena('hV9&%#daG'), TTipoDoc('CE'), TNumeroDoc(5690006869))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('kmunbyfv@bbc.co.uk'), 'Kelvin', 'Munby', TTelefono(3123255707), TContrasena('hV90%#daG'), TTipoDoc('CE'), TNumeroDoc(5690006869))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('isimonefw@topsy.com'), 'Isa', 'Simone', TTelefono(3919275309), TContrasena('qA8${B\''C,&A}'), TTipoDoc('CC'), TNumeroDoc(8113469832))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('isimonefw@topsy.com'), 'Isa', 'Simone', TTelefono(3919275309), TContrasena('qA8${B\''C,0A}'), TTipoDoc('CC'), TNumeroDoc(8113469832))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tkeiltyfx@msu.edu'), 'Tamra', 'Keilty', TTelefono(3190322807), TContrasena('mC5!mYXW'), TTipoDoc('CC'), TNumeroDoc(5309931201))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1175,7 +1175,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('atavnerg5@taobao.com'), 'Alison', 'Tavner', TTelefono(3694924047), TContrasena('lL6~c$_8zfRVP'), null, TNumeroDoc(4406556957))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('thadleyg6@constantcontact.com'), 'Thorpe', 'Hadley', TTelefono(3175285084), TContrasena('hH8&.r<."!eh'), TTipoDoc('CC'), TNumeroDoc(8361403667))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('thadleyg6@constantcontact.com'), 'Thorpe', 'Hadley', TTelefono(3175285084), TContrasena('hH80.r<."!eh'), TTipoDoc('CC'), TNumeroDoc(8361403667))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('scoggingsg7@myspace.com'), 'Spenser', 'Coggings', TTelefono(3969000585), TContrasena('eJ7#5$zw)bD0"$D'), null, null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1187,13 +1187,13 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('sjulyangb@joomla.org'), 'Shellysheldon', 'Julyan', TTelefono(3316207809), TContrasena('tO5,F\N!<V<N'), TTipoDoc('PP'), TNumeroDoc(9198646981))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lpatrisksongc@macromedia.com'), 'Lynnette', 'Patriskson', TTelefono(3038087392), TContrasena('vU9&l6t_~vN'), TTipoDoc('CC'), null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lpatrisksongc@macromedia.com'), 'Lynnette', 'Patriskson', TTelefono(3038087392), TContrasena('vU90l6t_~vN'), TTipoDoc('CC'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('villidgegd@forbes.com'), 'Vite', 'Illidge', TTelefono(3236311741), TContrasena('aH8|tA6kpf'), TTipoDoc('CC'), TNumeroDoc(3709069296))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tdroughtge@example.com'), 'Tilda', 'Drought', TTelefono(3131219557), TContrasena('bM4*GSD+h,|2'), null, TNumeroDoc(7111790587))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('abutterfillgf@usgs.gov'), 'Angelina', 'Butterfill', TTelefono(3745644908), TContrasena('yN4)kK&tb0.M'), TTipoDoc('CE'), TNumeroDoc(2098102483))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('abutterfillgf@usgs.gov'), 'Angelina', 'Butterfill', TTelefono(3745644908), TContrasena('yN4)kK0tb0.M'), TTipoDoc('CE'), TNumeroDoc(2098102483))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('kdelmagegg@deliciousdays.com'), 'Kandy', 'Delmage', TTelefono(3287192497), TContrasena('zU0/@K$1ccup.'), TTipoDoc('CC'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1217,7 +1217,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rmatchellgq@engadget.com'), 'Randie', 'Matchell', TTelefono(3707297429), TContrasena('lW5}77|aIkN'), TTipoDoc('CC'), TNumeroDoc(4835142322))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('vpilsburygr@reverbnation.com'), 'Vasilis', 'Pilsbury', TTelefono(3707941266), TContrasena('rH9@Z@fZP&Pay<`B'), TTipoDoc('CC'), TNumeroDoc(6915691387))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('vpilsburygr@reverbnation.com'), 'Vasilis', 'Pilsbury', TTelefono(3707941266), TContrasena('rH9@Z@fZP0Pay<`B'), TTipoDoc('CC'), TNumeroDoc(6915691387))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ghentzelergs@naver.com'), 'Giraldo', 'Hentzeler', TTelefono(3570241621), TContrasena('iV8#XL{NX,F+}VJ'), TTipoDoc('CE'), TNumeroDoc(5117222280))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1255,15 +1255,15 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('hdadgeh9@privacy.gov.au'), 'Hugibert', 'Dadge', TTelefono(3523035871), TContrasena('pQ7*0?z~"'), null, null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('darrowha@exblog.jp'), 'Dulcinea', 'Arrow', TTelefono(3476225079), TContrasena('wF0+o{"(&~HS'), TTipoDoc('CC'), TNumeroDoc(5276770241))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('darrowha@exblog.jp'), 'Dulcinea', 'Arrow', TTelefono(3476225079), TContrasena('wF0+o{"(0~HS'), TTipoDoc('CC'), TNumeroDoc(5276770241))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rdundonhb@ehow.com'), 'Raviv', 'Dundon', TTelefono(3197716868), TContrasena('tJ9?!0vsn{J?P(}'), null, TNumeroDoc(705948067))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('spigdonhc@ed.gov'), 'Seward', 'Pigdon', TTelefono(3852107701), TContrasena('rU4`l&9ZWFf'), TTipoDoc('CE'), TNumeroDoc(2064375600))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('spigdonhc@ed.gov'), 'Seward', 'Pigdon', TTelefono(3852107701), TContrasena('rU4`l09ZWFf'), TTipoDoc('CE'), TNumeroDoc(2064375600))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mjasperhd@yellowpages.com'), 'Merrielle', 'Jasper', TTelefono(3699168145), TContrasena('uX2)5HD/GDuY'), TTipoDoc('CC'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rfrobisherhe@earthlink.net'), 'Rhona', 'Frobisher', TTelefono(3294958272), TContrasena('uR3`!M&}'), TTipoDoc('CE'), TNumeroDoc(1014492013))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rfrobisherhe@earthlink.net'), 'Rhona', 'Frobisher', TTelefono(3294958272), TContrasena('uR3`!M0}'), TTipoDoc('CE'), TNumeroDoc(1014492013))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('toldamhf@plala.or.jp'), 'Tracey', 'Oldam', TTelefono(3805697570), TContrasena('iX1%YBug'), null, TNumeroDoc(1962363190))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1321,7 +1321,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ahouseni6@thetimes.co.uk'), 'Aurora', 'Housen', TTelefono(3706710826), TContrasena('eH6%9sOIT)zV4'), TTipoDoc('CE'), TNumeroDoc(5480492311))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tscathardi7@comsenz.com'), 'Trisha', 'Scathard', TTelefono(3293700908), TContrasena('lD0>#''E5Ma&_''_Y'), TTipoDoc('PP'), TNumeroDoc(7036152169))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tscathardi7@comsenz.com'), 'Trisha', 'Scathard', TTelefono(3293700908), TContrasena('lD0>#''E5Ma0_''_Y'), TTipoDoc('PP'), TNumeroDoc(7036152169))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('blaybournei8@vkontakte.ru'), 'Byram', 'Laybourne', TTelefono(3562466124), TContrasena('cS2/e|1=L6'), null, TNumeroDoc(3679666181))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1329,13 +1329,13 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ggowia@dropbox.com'), 'Georgi', 'Gow', TTelefono(3632644147), TContrasena('nK4.reReq(y}tq'), TTipoDoc('CE'), TNumeroDoc(3792303784))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('eharrimanib@wsj.com'), 'Elset', 'Harriman', TTelefono(3821485336), TContrasena('kO7|sdTseaXZ"v&'), TTipoDoc('CC'), TNumeroDoc(6525516779))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('eharrimanib@wsj.com'), 'Elset', 'Harriman', TTelefono(3821485336), TContrasena('kO7|sdTseaXZ"v0'), TTipoDoc('CC'), TNumeroDoc(6525516779))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('kguidoneic@surveymonkey.com'), 'Kathie', 'Guidone', TTelefono(3381535005), TContrasena('oE3''Jqt<B'), TTipoDoc('PP'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mkeyhoeid@upenn.edu'), 'Marnia', 'Keyhoe', TTelefono(3757713013), TContrasena('yQ4@_U*py''~_BWU'), null, TNumeroDoc(3380586319))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('crodliffie@upenn.edu'), 'Carter', 'Rodliff', TTelefono(3150314354), TContrasena('wS3&''z|dl0(b{_'), TTipoDoc('PP'), TNumeroDoc(900427578))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('crodliffie@upenn.edu'), 'Carter', 'Rodliff', TTelefono(3150314354), TContrasena('wS30''z|dl0(b{_'), TTipoDoc('PP'), TNumeroDoc(900427578))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('nstuckeyif@hatena.ne.jp'), 'Nobie', 'Stuckey', TTelefono(3326553296), TContrasena('eF8{J|**}TUJ'), TTipoDoc('CE'), TNumeroDoc(3771533575))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1347,7 +1347,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('vtuftinij@uiuc.edu'), 'Venita', 'Tuftin', TTelefono(3666286017), TContrasena('pR9}Z.!qAkA_Ehp'), TTipoDoc('PP'), TNumeroDoc(7235891744))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mellwellik@purevolume.com'), 'Merilyn', 'Ellwell', TTelefono(3281816538), TContrasena('eM7(1&*89/X'''), TTipoDoc('CC'), TNumeroDoc(6753277625))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mellwellik@purevolume.com'), 'Merilyn', 'Ellwell', TTelefono(3281816538), TContrasena('eM7(10*89/X'''), TTipoDoc('CC'), TNumeroDoc(6753277625))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mdicksonil@shutterfly.com'), 'Martelle', 'Dickson', TTelefono(3125345381), TContrasena('nE4`x)ag+'), TTipoDoc('PP'), TNumeroDoc(5920685868))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1357,7 +1357,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jashburnerio@bigcartel.com'), 'Janis', 'Ashburner', TTelefono(3026661440), TContrasena('tM2)2iG|V,46'), TTipoDoc('CC'), TNumeroDoc(2037005566))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('audellip@altervista.org'), 'Alphard', 'Udell', TTelefono(3610588873), TContrasena('bE7&lF2yVX'), TTipoDoc('CE'), TNumeroDoc(2224878940))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('audellip@altervista.org'), 'Alphard', 'Udell', TTelefono(3610588873), TContrasena('bE70lF2yVX'), TTipoDoc('CE'), TNumeroDoc(2224878940))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('scouldwelliq@is.gd'), 'Shane', 'Couldwell', TTelefono(3085426064), TContrasena('fG6.+0{u7!'), TTipoDoc('CC'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1367,9 +1367,9 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('byaninit@businesswire.com'), 'Babbie', 'Yanin', TTelefono(3744671960), TContrasena('fF9{*zd8VbWx*'), TTipoDoc('CE'), TNumeroDoc(7693151033))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('vtorregianiiu@printfriendly.com'), 'Verna', 'Torregiani', TTelefono(3479185730), TContrasena('qG0/1|H&z,Zs'), TTipoDoc('CE'), null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('vtorregianiiu@printfriendly.com'), 'Verna', 'Torregiani', TTelefono(3479185730), TContrasena('qG0/1|H0z,Zs'), TTipoDoc('CE'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lmaccarteriv@imageshack.us'), 'Link', 'MacCarter', TTelefono(3999010046), TContrasena('kK6&y9DxSRr&'), TTipoDoc('CE'), TNumeroDoc(2912988315))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lmaccarteriv@imageshack.us'), 'Link', 'MacCarter', TTelefono(3999010046), TContrasena('kK60y9DxSRr0'), TTipoDoc('CE'), TNumeroDoc(2912988315))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cslidesiw@independent.co.uk'), 'Carly', 'Slides', TTelefono(3788786361), TContrasena('eF9(UwRII'), TTipoDoc('PP'), TNumeroDoc(9925776652))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1377,7 +1377,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('kreedieiy@tinyurl.com'), 'Kirby', 'Reedie', TTelefono(3055288732), TContrasena('qJ3"f43k'), TTipoDoc('PP'), TNumeroDoc(8951325257))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bberrisfordiz@gnu.org'), 'Bartel', 'Berrisford', TTelefono(3602248127), TContrasena('xT7(?5&@l3.u'), TTipoDoc('PP'), TNumeroDoc(9454772232))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bberrisfordiz@gnu.org'), 'Bartel', 'Berrisford', TTelefono(3602248127), TContrasena('xT7(?50@l3.u'), TTipoDoc('PP'), TNumeroDoc(9454772232))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('wmcaleesej0@springer.com'), 'Waldemar', 'McAleese', TTelefono(3846848413), TContrasena('sU3<3?r2=?<BB'), TTipoDoc('CC'), TNumeroDoc(3581734262))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1403,7 +1403,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('amcbratneyjb@diigo.com'), 'Anthony', 'McBratney', TTelefono(3728345328), TContrasena('bD8*o%h.S'), null, TNumeroDoc(6393434903))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('eperottijc@opera.com'), 'Esdras', 'Perotti', TTelefono(3958933878), TContrasena('rX8@Jx1%uET&Kf|'), TTipoDoc('CC'), TNumeroDoc(3508445947))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('eperottijc@opera.com'), 'Esdras', 'Perotti', TTelefono(3958933878), TContrasena('rX8@Jx1%uET0Kf|'), TTipoDoc('CC'), TNumeroDoc(3508445947))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('tgarrudjd@tamu.edu'), 'Tim', 'Garrud', TTelefono(3299200003), TContrasena('uZ5#{_7''AO5O}i'), null, null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1441,7 +1441,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ipeardeju@japanpost.jp'), 'Isidoro', 'Pearde', TTelefono(3497668858), TContrasena('vI0=cBccc}'), TTipoDoc('CC'), TNumeroDoc(6227426181))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jvarfalameevjv@yellowpages.com'), 'Jolyn', 'Varfalameev', TTelefono(3478286408), TContrasena('rN7?{N&*)65MXPfo'), TTipoDoc('CE'), TNumeroDoc(9494915031))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jvarfalameevjv@yellowpages.com'), 'Jolyn', 'Varfalameev', TTelefono(3478286408), TContrasena('rN7?{N0*)65MXPfo'), TTipoDoc('CE'), TNumeroDoc(9494915031))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('kcancellorjw@networksolutions.com'), 'Krystalle', 'Cancellor', TTelefono(3157637681), TContrasena('dJ8_<pMbQO\*''n'), TTipoDoc('CC'), TNumeroDoc(9912624856))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1471,13 +1471,13 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mweirk9@businesswire.com'), 'Melloney', 'Weir', TTelefono(3484520675), TContrasena('qH0${1Y_P'), null, TNumeroDoc(495183164))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bmunslowka@blinklist.com'), 'Beale', 'Munslow', TTelefono(3781335557), TContrasena('iK3''5Qa&`g7c~'), null, TNumeroDoc(4062237869))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bmunslowka@blinklist.com'), 'Beale', 'Munslow', TTelefono(3781335557), TContrasena('iK3''5Qa0`g7c~'), null, TNumeroDoc(4062237869))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('csuttellkb@multiply.com'), 'Caril', 'Suttell', TTelefono(3075626535), TContrasena('iL1(<l?G'), TTipoDoc('CC'), TNumeroDoc(2061908712))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ljoriskc@bloglovin.com'), 'Loutitia', 'Joris', TTelefono(3332935913), TContrasena('oU0$}6Xt_"0~.ju'), TTipoDoc('PP'), TNumeroDoc(6283461941))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('aanandkd@boston.com'), 'Amber', 'Anand', TTelefono(3885511311), TContrasena('iK7_!L8OA"&1H7'), null, TNumeroDoc(4217527689))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('aanandkd@boston.com'), 'Amber', 'Anand', TTelefono(3885511311), TContrasena('iK7_!L8OA"01H7'), null, TNumeroDoc(4217527689))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('clezemereke@google.nl'), 'Claudio', 'Lezemere', TTelefono(3022122711), TContrasena('dW3@4}6aC#L6x5o?'), TTipoDoc('CC'), TNumeroDoc(625135203))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1505,7 +1505,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dfawlkskq@webmd.com'), 'Dottie', 'Fawlks', TTelefono(3909501072), TContrasena('cW6+_+#MGk9'), TTipoDoc('CE'), TNumeroDoc(5653300684))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('blansdownekr@rambler.ru'), 'Bert', 'Lansdowne', TTelefono(3054295682), TContrasena('pH5(gS&Q+'), TTipoDoc('CE'), TNumeroDoc(2729147938))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('blansdownekr@rambler.ru'), 'Bert', 'Lansdowne', TTelefono(3054295682), TContrasena('pH5(gS0Q+'), TTipoDoc('CE'), TNumeroDoc(2729147938))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('gwoolgarks@dion.ne.jp'), 'Gusty', 'Woolgar', TTelefono(3176957415), TContrasena('uG3%h\Bex'), TTipoDoc('CE'), TNumeroDoc(884339539))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1527,11 +1527,11 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('manstissl1@digg.com'), 'Morly', 'Anstiss', TTelefono(3513412955), TContrasena('hB2\u`.6,biU#rA}'), TTipoDoc('CE'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('kbarkesl2@4shared.com'), 'Kristyn', 'Barkes', TTelefono(3178488355), TContrasena('jI8<jP&$G`o>'), null, null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('kbarkesl2@4shared.com'), 'Kristyn', 'Barkes', TTelefono(3178488355), TContrasena('jI8<jP0$G`o>'), null, null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ktoonel3@barnesandnoble.com'), 'Kurtis', 'Toone', TTelefono(3647141526), TContrasena('sO8"rsBE))&D.9'), TTipoDoc('CE'), TNumeroDoc(8825624397))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ktoonel3@barnesandnoble.com'), 'Kurtis', 'Toone', TTelefono(3647141526), TContrasena('sO8"rsBE))0D.9'), TTipoDoc('CE'), TNumeroDoc(8825624397))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('nkilfetherl4@hhs.gov'), 'Nickolaus', 'Kilfether', TTelefono(3703296241), TContrasena('jR9''VsCVU<pF&X'), TTipoDoc('CE'), null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('nkilfetherl4@hhs.gov'), 'Nickolaus', 'Kilfether', TTelefono(3703296241), TContrasena('jR9''VsCVU<pF0X'), TTipoDoc('CE'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cmacloughlinl5@cnet.com'), 'Cristie', 'MacLoughlin', TTelefono(3157458749), TContrasena('pV1,iMgza<h4z.'), TTipoDoc('PP'), TNumeroDoc(6669795166))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1561,9 +1561,9 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('drowthornli@buzzfeed.com'), 'Dru', 'Rowthorn', TTelefono(3542904632), TContrasena('vA0`p4S.1G_D~Fq'), TTipoDoc('CE'), TNumeroDoc(1480489882))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('modriscolllj@reverbnation.com'), 'Marie-jeanne', 'O''Driscoll', TTelefono(3495566774), TContrasena('rQ8&7*}+s'), TTipoDoc('PP'), TNumeroDoc(4219781897))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('modriscolllj@reverbnation.com'), 'Marie-jeanne', 'O''Driscoll', TTelefono(3495566774), TContrasena('rQ807*}+s'), TTipoDoc('PP'), TNumeroDoc(4219781897))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('nklicherlk@un.org'), 'Noby', 'Klicher', TTelefono(3136735920), TContrasena('zZ1''k~hNz23_&G'), TTipoDoc('CE'), TNumeroDoc(7794761441))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('nklicherlk@un.org'), 'Noby', 'Klicher', TTelefono(3136735920), TContrasena('zZ1''k~hNz23_0G'), TTipoDoc('CE'), TNumeroDoc(7794761441))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dshimmingsll@wunderground.com'), 'Dunn', 'Shimmings', TTelefono(3290493850), TContrasena('pD5$G,>zb4>$65'), TTipoDoc('CC'), TNumeroDoc(5284002025))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1581,7 +1581,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ckowalskils@ebay.co.uk'), 'Cordie', 'Kowalski', TTelefono(3799706992), TContrasena('vS5)g<tR{25_l.'), TTipoDoc('CC'), TNumeroDoc(2496867605))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bjoveylt@google.ca'), 'Brooks', 'Jovey', TTelefono(3523923267), TContrasena('lW9>q&yPj{u/'), TTipoDoc('CE'), TNumeroDoc(1308990164))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bjoveylt@google.ca'), 'Brooks', 'Jovey', TTelefono(3523923267), TContrasena('lW9>q0yPj{u/'), TTipoDoc('CE'), TNumeroDoc(1308990164))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('swoolfootlu@gov.uk'), 'Sergeant', 'Woolfoot', TTelefono(3054610336), TContrasena('iP3}bjFsD_i'), TTipoDoc('PP'), TNumeroDoc(4063691591))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1597,9 +1597,9 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('eshipleym0@seattletimes.com'), 'Ellwood', 'Shipley', TTelefono(3875418873), TContrasena('zX6@@d5y\o.yG$''/'), TTipoDoc('CC'), TNumeroDoc(5333908377))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rbohdenm1@dropbox.com'), 'Roxanna', 'Bohden', TTelefono(3643801533), TContrasena('eK9''&=9g9$N+|5'), TTipoDoc('PP'), TNumeroDoc(8582887107))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rbohdenm1@dropbox.com'), 'Roxanna', 'Bohden', TTelefono(3643801533), TContrasena('eK9''0=9g9$N+|5'), TTipoDoc('PP'), TNumeroDoc(8582887107))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bgilleasem2@over-blog.com'), 'Bertie', 'Gillease', TTelefono(3109981016), TContrasena('sY1!aQ&C'), TTipoDoc('CE'), TNumeroDoc(1528422759))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bgilleasem2@over-blog.com'), 'Bertie', 'Gillease', TTelefono(3109981016), TContrasena('sY1!aQ0C'), TTipoDoc('CE'), TNumeroDoc(1528422759))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jrooneym3@over-blog.com'), 'Jacquelin', 'Rooney', TTelefono(3264685917), TContrasena('pM9%y4x01h}\'), TTipoDoc('PP'), TNumeroDoc(7488251576))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1619,7 +1619,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rcockshootmb@chron.com'), 'Rayner', 'Cockshoot', TTelefono(3864642927), TContrasena('tR6/7KD}'), TTipoDoc('CE'), TNumeroDoc(7547230955))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jstivensmc@baidu.com'), 'Jock', 'Stivens', TTelefono(3360120399), TContrasena('tH9`G/#CU&/'), TTipoDoc('CE'), TNumeroDoc(4601504885))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jstivensmc@baidu.com'), 'Jock', 'Stivens', TTelefono(3360120399), TContrasena('tH9`G/#CU0/'), TTipoDoc('CE'), TNumeroDoc(4601504885))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mtarpeymd@ox.ac.uk'), 'Michele', 'Tarpey', TTelefono(3656510274), TContrasena('rQ0=TkYnKs9Q!hy'), TTipoDoc('CC'), TNumeroDoc(5114786329))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1683,13 +1683,13 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ghuken7@epa.gov'), 'Gwenni', 'Huke', TTelefono(3907340192), TContrasena('mZ3`WdZZst'), TTipoDoc('PP'), TNumeroDoc(1393854329))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rdiemn8@usa.gov'), 'Ruttger', 'Diem', TTelefono(3499451448), TContrasena('rX0&DK=Oe%KSMYz>'), null, TNumeroDoc(6270758883))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rdiemn8@usa.gov'), 'Ruttger', 'Diem', TTelefono(3499451448), TContrasena('rX00DK=Oe%KSMYz>'), null, TNumeroDoc(6270758883))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('farndelln9@mashable.com'), 'Farlay', 'Arndell', TTelefono(3672992033), TContrasena('rZ0&<|i0'), TTipoDoc('CE'), TNumeroDoc(8791060118))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('farndelln9@mashable.com'), 'Farlay', 'Arndell', TTelefono(3672992033), TContrasena('rZ00<|i0'), TTipoDoc('CE'), TNumeroDoc(8791060118))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('gsabatena@paginegialle.it'), 'Gwyn', 'Sabate', TTelefono(3713452999), TContrasena('cS9!L''%vDI1ZJug'), TTipoDoc('PP'), TNumeroDoc(3319145443))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('edominguesnb@weibo.com'), 'Emmi', 'Domingues', TTelefono(3165161030), TContrasena('fY6@V&tJl8(g%h$'), TTipoDoc('CC'), TNumeroDoc(6231050300))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('edominguesnb@weibo.com'), 'Emmi', 'Domingues', TTelefono(3165161030), TContrasena('fY6@V0tJl8(g%h$'), TTipoDoc('CC'), TNumeroDoc(6231050300))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('cticksallnc@cargocollective.com'), 'Chicky', 'Ticksall', TTelefono(3395888887), TContrasena('tN6,syvW'), null, TNumeroDoc(2423290304))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1723,11 +1723,11 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dboothbynr@about.com'), 'Dniren', 'Boothby', TTelefono(3868367506), TContrasena('nV4`x<uA2edN(C'), TTipoDoc('CE'), TNumeroDoc(9580833250))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('sudalens@indiegogo.com'), 'Sharleen', 'Udale', TTelefono(3583840335), TContrasena('uA5>E0,t&(TsrdUG'), TTipoDoc('PP'), null)
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('sudalens@indiegogo.com'), 'Sharleen', 'Udale', TTelefono(3583840335), TContrasena('uA5>E0,t0(TsrdUG'), TTipoDoc('PP'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ewaddynt@mac.com'), 'Edouard', 'Waddy', TTelefono(3421808233), TContrasena('aB9.uqZg'), TTipoDoc('CE'), TNumeroDoc(3996630965))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rfairbridgenu@gravatar.com'), 'Rana', 'Fairbridge', TTelefono(3264465095), TContrasena('eZ5{jP=`k)HF<(&'), TTipoDoc('CE'), TNumeroDoc(5215911594))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('rfairbridgenu@gravatar.com'), 'Rana', 'Fairbridge', TTelefono(3264465095), TContrasena('eZ5{jP=`k)HF<(0'), TTipoDoc('CE'), TNumeroDoc(5215911594))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ejeffraynv@instagram.com'), 'Elle', 'Jeffray', TTelefono(3354294041), TContrasena('lM3"#8g}7B2<1*K'), TTipoDoc('CC'), TNumeroDoc(1147845829))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1753,13 +1753,13 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ewhittocko6@dot.gov'), 'Elenore', 'Whittock', TTelefono(3417764372), TContrasena('sA9~`{HQ~)NB\H!R'), TTipoDoc('CE'), TNumeroDoc(9710822642))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mwabeyo7@gnu.org'), 'Marleen', 'Wabey', TTelefono(3702071172), TContrasena('mV0.&B74'), TTipoDoc('CE'), TNumeroDoc(8345649163))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mwabeyo7@gnu.org'), 'Marleen', 'Wabey', TTelefono(3702071172), TContrasena('mV0.0B74'), TTipoDoc('CE'), TNumeroDoc(8345649163))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dbilborougho8@seattletimes.com'), 'Deloris', 'Bilborough', TTelefono(3771670941), TContrasena('wL6&BKo+Bu()?'), TTipoDoc('CC'), TNumeroDoc(8103430772))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dbilborougho8@seattletimes.com'), 'Deloris', 'Bilborough', TTelefono(3771670941), TContrasena('wL60BKo+Bu()?'), TTipoDoc('CC'), TNumeroDoc(8103430772))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dvuitteto9@comcast.net'), 'Dedie', 'Vuittet', TTelefono(3162183891), TContrasena('vI2@r$,$M}'), null, TNumeroDoc(220665362))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('anornableoa@homestead.com'), 'Anatol', 'Nornable', TTelefono(3780407790), TContrasena('aP6&x"{WXnTnz2$'), TTipoDoc('CE'), TNumeroDoc(5826423605))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('anornableoa@homestead.com'), 'Anatol', 'Nornable', TTelefono(3780407790), TContrasena('aP60x"{WXnTnz2$'), TTipoDoc('CE'), TNumeroDoc(5826423605))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('hsilverthornob@about.com'), 'Hoebart', 'Silverthorn', TTelefono(3844859917), TContrasena('eV5@pnl__'), null, TNumeroDoc(2636502485))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1767,11 +1767,11 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('klongstaffeod@pen.io'), 'Kristien', 'Longstaffe', TTelefono(3194525362), TContrasena('jN1`y\v)'), TTipoDoc('PP'), TNumeroDoc(9337199961))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bflobertoe@delicious.com'), 'Brita', 'Flobert', TTelefono(3232931738), TContrasena('jD4&Xi=/L\Kh,H'), TTipoDoc('PP'), TNumeroDoc(6762767254))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bflobertoe@delicious.com'), 'Brita', 'Flobert', TTelefono(3232931738), TContrasena('jD40Xi=/L\Kh,H'), TTipoDoc('PP'), TNumeroDoc(6762767254))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('chendersonof@ft.com'), 'Charmane', 'Henderson', TTelefono(3790917717), TContrasena('mD8.g~ei%a0v'), TTipoDoc('CE'), TNumeroDoc(7896307849))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('gpearseyog@latimes.com'), 'Goldina', 'Pearsey', TTelefono(3629676213), TContrasena('oX3/r4>U&'), TTipoDoc('CE'), TNumeroDoc(1736783212))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('gpearseyog@latimes.com'), 'Goldina', 'Pearsey', TTelefono(3629676213), TContrasena('oX3/r4>U0'), TTipoDoc('CE'), TNumeroDoc(1736783212))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mcrewoh@soup.io'), 'Mabel', 'Crew', TTelefono(3786767951), TContrasena('gK7)eQg!!mt'), TTipoDoc('CE'), TNumeroDoc(2057985151))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1795,7 +1795,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lbruor@google.pl'), 'Lavina', 'Bru', TTelefono(3855521597), TContrasena('qB6`?T.d(c'), TTipoDoc('CE'), TNumeroDoc(5772156482))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ezarfaios@geocities.com'), 'Estele', 'Zarfai', TTelefono(3987001390), TContrasena('uE8?XD&8+#'), TTipoDoc('PP'), TNumeroDoc(9775140727))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ezarfaios@geocities.com'), 'Estele', 'Zarfai', TTelefono(3987001390), TContrasena('uE8?XD08+#'), TTipoDoc('PP'), TNumeroDoc(9775140727))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('mabaziot@cloudflare.com'), 'Marylinda', 'Abazi', TTelefono(3630934685), TContrasena('lE8(NDx/.x)A'), TTipoDoc('PP'), TNumeroDoc(2551847788))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1815,7 +1815,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('adefondp1@posterous.com'), 'Andre', 'Defond', TTelefono(3314966346), TContrasena('tV4|?9!N@hrNqUTq'), TTipoDoc('CE'), TNumeroDoc(6171626212))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dcolatonp2@bloglovin.com'), 'Daron', 'Colaton', TTelefono(3735817906), TContrasena('bN3$cn&?QN\r,o('), TTipoDoc('CC'), TNumeroDoc(8785127995))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dcolatonp2@bloglovin.com'), 'Daron', 'Colaton', TTelefono(3735817906), TContrasena('bN3$cn0?QN\r,o('), TTipoDoc('CC'), TNumeroDoc(8785127995))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('pbruunp3@nbcnews.com'), 'Paulie', 'Bruun', TTelefono(3392169036), TContrasena('oF9?S<EvSd(''L<'), TTipoDoc('PP'), TNumeroDoc(2594577547))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1825,7 +1825,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ccattelp6@friendfeed.com'), 'Cari', 'Cattel', TTelefono(3797818809), TContrasena('yN6<Q1+t?y0'), TTipoDoc('CC'), TNumeroDoc(6735438211))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bgivensp7@nsw.gov.au'), 'Brittany', 'Givens', TTelefono(3989698373), TContrasena('xK1}qAp7&B*)%f"'), TTipoDoc('PP'), TNumeroDoc(275261835))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('bgivensp7@nsw.gov.au'), 'Brittany', 'Givens', TTelefono(3989698373), TContrasena('xK1}qAp70B*)%f"'), TTipoDoc('PP'), TNumeroDoc(275261835))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('pgrebnerp8@statcounter.com'), 'Park', 'Grebner', TTelefono(3388411993), TContrasena('zS4!4w_gX"UfqJe'), TTipoDoc('CE'), TNumeroDoc(5011432180))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1849,7 +1849,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('lgilkspi@topsy.com'), 'Leonidas', 'Gilks', TTelefono(3269479946), TContrasena('zN4|KGpCrqN<*5O'), TTipoDoc('PP'), TNumeroDoc(3064877736))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ecreerpj@360.cn'), 'Elizabeth', 'Creer', TTelefono(3374353101), TContrasena('kJ4!&z<d)3'), null, TNumeroDoc(7125483626))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ecreerpj@360.cn'), 'Elizabeth', 'Creer', TTelefono(3374353101), TContrasena('kJ4!0z<d)3'), null, TNumeroDoc(7125483626))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('heveritpk@fema.gov'), 'Hendrick', 'Everit', TTelefono(3082408084), TContrasena('fC1~zN4%XPW9o'), TTipoDoc('PP'), TNumeroDoc(2041462628))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1891,9 +1891,9 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('vpaulssonq3@cyberchimps.com'), 'Vonni', 'Paulsson', TTelefono(3898941865), TContrasena('mY9)H\5`'), TTipoDoc('PP'), TNumeroDoc(4692539898))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ccrutchleyq4@unblog.fr'), 'Christie', 'Crutchley', TTelefono(3266710255), TContrasena('dV9}xZvE&s'), TTipoDoc('CE'), TNumeroDoc(6458742697))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ccrutchleyq4@unblog.fr'), 'Christie', 'Crutchley', TTelefono(3266710255), TContrasena('dV9}xZvE0s'), TTipoDoc('CE'), TNumeroDoc(6458742697))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ccrosbyq5@theatlantic.com'), 'Corinna', 'Crosby', TTelefono(3572032165), TContrasena('eS7,X>C8F&yW'), TTipoDoc('PP'), TNumeroDoc(3679718493))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ccrosbyq5@theatlantic.com'), 'Corinna', 'Crosby', TTelefono(3572032165), TContrasena('eS7,X>C8F0yW'), TTipoDoc('PP'), TNumeroDoc(3679718493))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('dbrassingtonq6@hud.gov'), 'Debora', 'Brassington', TTelefono(3075912324), TContrasena('vB8<7<xr8>'), TTipoDoc('CE'), TNumeroDoc(1461453743))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1925,7 +1925,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('oslocumqk@twitter.com'), 'Orland', 'Slocum', TTelefono(3481587445), TContrasena('vE1}Cr@,rJo'), TTipoDoc('CC'), TNumeroDoc(7800879494))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('eassenderql@angelfire.com'), 'Edithe', 'Assender', TTelefono(3641665558), TContrasena('lQ7/oQ>=&6%6?|e'), TTipoDoc('PP'), TNumeroDoc(8186560390))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('eassenderql@angelfire.com'), 'Edithe', 'Assender', TTelefono(3641665558), TContrasena('lQ7/oQ>=06%6?|e'), TTipoDoc('PP'), TNumeroDoc(8186560390))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jwrankmoreqm@umich.edu'), 'Julian', 'Wrankmore', TTelefono(3441866859), TContrasena('hC0@UuhZ=4gZ`'), null, TNumeroDoc(7770376899))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1949,7 +1949,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('apriddleqw@freewebs.com'), 'Angel', 'Priddle', TTelefono(3356611339), TContrasena('uT0<LT(P8E'), TTipoDoc('CE'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('wdelosqx@independent.co.uk'), 'Wileen', 'Delos', TTelefono(3782733562), TContrasena('wP4&J+2Y7/W4E'), TTipoDoc('PP'), TNumeroDoc(9729103206))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('wdelosqx@independent.co.uk'), 'Wileen', 'Delos', TTelefono(3782733562), TContrasena('wP40J+2Y7/W4E'), TTipoDoc('PP'), TNumeroDoc(9729103206))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('jeastmanqy@amazon.com'), 'Jordan', 'Eastman', TTelefono(3564048213), TContrasena('vW9?Y=nla||h'), null, TNumeroDoc(7175799423))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
@@ -1959,7 +1959,7 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('efynnr1@miibeian.gov.cn'), 'Elfreda', 'Fynn', TTelefono(3432083378), TContrasena('nO4*nHY5,'), TTipoDoc('PP'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
-insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('gserraillierr2@amazonaws.com'), 'Gregory', 'Serraillier', TTelefono(3346508595), TContrasena('wE6&%2gp'), TTipoDoc('PP'), TNumeroDoc(2510612834))
+insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('gserraillierr2@amazonaws.com'), 'Gregory', 'Serraillier', TTelefono(3346508595), TContrasena('wE60%2gp'), TTipoDoc('PP'), TNumeroDoc(2510612834))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('ogeardr3@home.pl'), 'Oren', 'Geard', TTelefono(3806105340), TContrasena('lK7"6fk%rhBQp_oc'), TTipoDoc('CE'), null)
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
