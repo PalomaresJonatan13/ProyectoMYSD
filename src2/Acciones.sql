@@ -1,0 +1,2 @@
+-- Definición de las acciones de referencia: Dichas acciones ya fueron implemetadas en
+-- el archivo 'Foraneas.sql' por ende este archivo no tiene contenido

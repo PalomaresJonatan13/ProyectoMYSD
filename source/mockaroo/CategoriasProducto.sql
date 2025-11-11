@@ -1,6 +1,5 @@
 SET DEFINE OFF;
 
-
 BEGIN
   DBMS_ERRLOG.CREATE_ERROR_LOG(
     dml_table_name   => 'CategoriasProducto',
@@ -9,9 +8,6 @@ BEGIN
   );
 END;
 /
-
-
-
 
 insert into CategoriasProducto (nombre, superCategoria) values ('Strength Training Equipment', null)
     LOG ERRORS INTO ERRORS_CategoriasProducto REJECT LIMIT 1;

@@ -1,0 +1,4 @@
+-- Casos que prueban las acciones de referencia: dichas acciones de referencia
+-- dependen del motor ya que lo que ocurre despues de un delete es tarea del
+-- motor no nuestra, el delete on <algo> siempre funcionara siempre y cuando
+-- sea declarado (ver foraneas.sql)
