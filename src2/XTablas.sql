@@ -1,0 +1,15 @@
+DROP TABLE Usuarios                     CASCADE CONSTRAINTS;
+DROP TABLE Ubicaciones                  CASCADE CONSTRAINTS;
+DROP TABLE Direcciones                  CASCADE CONSTRAINTS;
+DROP TABLE Tarjetas                     CASCADE CONSTRAINTS;
+DROP TABLE Vendedores                   CASCADE CONSTRAINTS;
+DROP TABLE Productos                    CASCADE CONSTRAINTS;
+DROP TABLE CarritosCompras              CASCADE CONSTRAINTS;
+DROP TABLE HistorialesVisitas           CASCADE CONSTRAINTS;
+DROP TABLE ListasProductos              CASCADE CONSTRAINTS;
+DROP TABLE ProductosEnCarrito           CASCADE CONSTRAINTS;
+DROP TABLE ProductosEnHistorialVisitas  CASCADE CONSTRAINTS;
+DROP TABLE ProductosEnLista             CASCADE CONSTRAINTS;
+DROP TABLE Promociones                  CASCADE CONSTRAINTS;
+DROP TABLE CategoriasProducto           CASCADE CONSTRAINTS;
+DROP TABLE ProductosEnCategoria         CASCADE CONSTRAINTS;

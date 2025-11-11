@@ -2014,11 +2014,8 @@ insert into CategoriasProducto (nombre, superCategoria) values ('Healthy Snacks'
 insert into CategoriasProducto (nombre, superCategoria) values ('Canned Legumes', 'Activewear Jackets')
     LOG ERRORS INTO ERRORS_CategoriasProducto REJECT LIMIT 1;
 
-
-
-
 SELECT ora_err_mesg$, nombre, superCategoria
 FROM   ERRORS_CategoriasProducto;
 
 select count(*)
-from ERRORS_CategoriasProducto;
+from CategoriasProducto;

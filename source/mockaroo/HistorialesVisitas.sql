@@ -12,85 +12,85 @@ END;
 
 
 
-insert into HistorialesVisitas (usuario) values (1001)
+insert into HistorialesVisitas (usuario) values (1)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1002)
+insert into HistorialesVisitas (usuario) values (2)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1003)
+insert into HistorialesVisitas (usuario) values (3)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1004)
+insert into HistorialesVisitas (usuario) values (4)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1005)
+insert into HistorialesVisitas (usuario) values (5)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1006)
+insert into HistorialesVisitas (usuario) values (6)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1007)
+insert into HistorialesVisitas (usuario) values (7)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1008)
+insert into HistorialesVisitas (usuario) values (8)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1009)
+insert into HistorialesVisitas (usuario) values (9)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1010)
+insert into HistorialesVisitas (usuario) values (10)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1011)
+insert into HistorialesVisitas (usuario) values (11)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1012)
+insert into HistorialesVisitas (usuario) values (12)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1013)
+insert into HistorialesVisitas (usuario) values (13)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1014)
+insert into HistorialesVisitas (usuario) values (14)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1015)
+insert into HistorialesVisitas (usuario) values (15)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1016)
+insert into HistorialesVisitas (usuario) values (16)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1017)
+insert into HistorialesVisitas (usuario) values (17)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1018)
+insert into HistorialesVisitas (usuario) values (18)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1019)
+insert into HistorialesVisitas (usuario) values (19)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1020)
+insert into HistorialesVisitas (usuario) values (20)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1021)
+insert into HistorialesVisitas (usuario) values (21)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1022)
+insert into HistorialesVisitas (usuario) values (22)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1023)
+insert into HistorialesVisitas (usuario) values (23)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1024)
+insert into HistorialesVisitas (usuario) values (24)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1025)
+insert into HistorialesVisitas (usuario) values (25)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1026)
+insert into HistorialesVisitas (usuario) values (26)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1027)
+insert into HistorialesVisitas (usuario) values (27)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1028)
+insert into HistorialesVisitas (usuario) values (28)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1029)
+insert into HistorialesVisitas (usuario) values (29)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1030)
+insert into HistorialesVisitas (usuario) values (30)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1031)
+insert into HistorialesVisitas (usuario) values (31)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1032)
+insert into HistorialesVisitas (usuario) values (32)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1033)
+insert into HistorialesVisitas (usuario) values (33)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1034)
+insert into HistorialesVisitas (usuario) values (34)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1035)
+insert into HistorialesVisitas (usuario) values (35)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1036)
+insert into HistorialesVisitas (usuario) values (36)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1037)
+insert into HistorialesVisitas (usuario) values (37)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1038)
+insert into HistorialesVisitas (usuario) values (38)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
 insert into HistorialesVisitas (usuario) values (39)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
-insert into HistorialesVisitas (usuario) values (1039)
+insert into HistorialesVisitas (usuario) values (40)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
 insert into HistorialesVisitas (usuario) values (41)
     LOG ERRORS INTO ERRORS_HistorialesVisitas REJECT LIMIT 1;
