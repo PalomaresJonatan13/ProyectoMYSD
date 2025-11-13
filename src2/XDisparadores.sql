@@ -1,0 +1,15 @@
+DROP TRIGGER trg_usuarios_mantener_direccion_bd;
+DROP TRIGGER trg_usuarios_mantener_usuario_bi;
+DROP TRIGGER trg_usuarios_mantener_usuario_ai;
+drop trigger trg_usuarios_mantener_usuario_bu_email;
+drop trigger trg_usuarios_mantener_producto_en_carrito_bi;
+DROP TRIGGER trg_usuarios_mantener_producto_en_carrito_bi_cantidad;
+DROP TRIGGER trg_usuarios_registrar_producto_historial_visitas_bi;
+DROP TRIGGER trg_usuarios_mantener_lista_productos_bu_attempt;
+DROP TRIGGER trg_usuarios_mantener_lista_productos_bd;
+DROP TRIGGER trg_usuarios_mantener_producto_lista_bi;
+DROP TRIGGER trg_vendedores_manetener_producto_bi;
+DROP TRIGGER trg_vendedores_manetener_producto_bu_attempt;
+DROP TRIGGER trg_vendedores_mantener_producto_bd;
+DROP TRIGGER trg_vendedores_mantener_promocion_bi;
+DROP TRIGGER trg_vendedores_matener_promocion_bd;
