@@ -44,6 +44,8 @@ INSERT INTO Direcciones (
     TTelefono(3009876543)
 );
 
+select * from Direcciones;
+
 DELETE FROM Direcciones
 WHERE idDireccion = 1;
 

@@ -92,7 +92,7 @@ INSERT INTO Productos (
     SYSDATE,
     'algo algo algo',
     TBoolean('T'),
-    TEstadoProducto('P'),
+    TEstadoProducto('Pausado'),
     1
 );
 
