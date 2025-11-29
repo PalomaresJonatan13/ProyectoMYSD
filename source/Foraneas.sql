@@ -5,7 +5,7 @@ ALTER TABLE Direcciones ADD CONSTRAINT fk_direcciones_usuario
     FOREIGN KEY (usuario) REFERENCES Usuarios(idUsuario)
     ON DELETE CASCADE;
 
-ALTER TABLE Tarjetas ADD CONSTRAINT fk_tarjetaS_usuario
+ALTER TABLE Tarjetas ADD CONSTRAINT fk_tarjetas_usuario
     FOREIGN KEY (usuario) REFERENCES Usuarios(idUsuario)
     ON DELETE CASCADE;
 

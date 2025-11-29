@@ -262,17 +262,17 @@ begin
 end;
 /
 
-create or replace trigger tr_vendedor_bi
-before insert on Vendedores
-for each row
-declare
-begin
-	if :NEW.verificado is NULL then
-		RAISE_APPLICATION_ERROR(-20124, 'vendedor:vendedor:insert: verificado must be not null')
-	end if;
+-- create or replace trigger tr_vendedor_bi
+-- before insert on Vendedores
+-- for each row
+-- declare
+-- begin
+-- 	if :NEW.verificado is NULL then
+-- 		RAISE_APPLICATION_ERROR(-20124, 'vendedor:vendedor:insert: verificado must be not null')
+-- 	end if;
 
-	if :NEW.nombreVendedor is NULL then
-		RAISE_APPLICATION_ERROR(-20125, 'vendedor:vendedor:insert: nombreVendedor must be not null')
-	end if;
-end;
-/
+-- 	if :NEW.nombreVendedor is NULL then
+-- 		RAISE_APPLICATION_ERROR(-20125, 'vendedor:vendedor:insert: nombreVendedor must be not null')
+-- 	end if;
+-- end;
+-- /

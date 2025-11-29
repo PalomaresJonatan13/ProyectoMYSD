@@ -13,7 +13,7 @@ select nombre Producto, fechaVisto FechaVisto
 from productosEnHistorialVisitas
     join productos on idProducto = producto
     join historialesVisitas on usuario = historial
-where usuario = 1 and sysdate - fechaVisto <= 30
+where usuario = 514 and sysdate - fechaVisto <= 30
 order by fechaVisto desc;
 
 /*
@@ -96,7 +96,7 @@ order by round(fechaFinal-sysdate, 2), pr.descuentoPorcentaje.porcentaje desc;
  * nota: con loop (?)
  */
 
-/*
+
  * COMO usuario
  * QUIERO Consultar si hay alguna promoción disponible para productos que haya
  * añadido al carrito de compras o guardado en listas
@@ -106,18 +106,48 @@ order by round(fechaFinal-sysdate, 2), pr.descuentoPorcentaje.porcentaje desc;
  * 'Favoritos', nombre de otra lista), si tiene promoción activa, ordenado descendentemente por el porcentaje de descuento y
  * ascendentemente por duración.
 
-    select nombre Producto, 'CarritoCompras' Lugar, (case when fechaFinal-sysdate > 0 then 'T' else 'F' end)
-    from Productos
-        join productosEnCarrito c on c.producto = idProducto
-    where c.carrito = 226
-    group by 
-    ) intersect
-    (
-    select nombre Producto, l.nombre Lugar, (case when fechaFinal-sysdate > 0 then 'T' else 'F' end)
-    from Productos
-        join productosEnLista l on l.producto = idProducto
-        join listasProductos lp on lp.idLista = l.lista
-        join promociones pr on pr.producto = idProducto
-    where lp.usuario = 226
-    group by nombre, l.nombre
-*/
+WITH fuentes AS (
+    -- Productos en carrito
+    SELECT
+        p.idProducto,
+        p.nombre AS producto,
+        'Carrito de compras' AS lugar,
+        pr.fechaInicio,
+        pr.fechaFinal,
+        pr.descuentoPorcentaje
+    FROM productos p
+    JOIN productosEnCarrito pc ON pc.producto = p.idProducto
+    LEFT JOIN promociones pr ON pr.producto = p.idProducto
+    WHERE pc.carrito = 226
+
+    UNION ALL
+
+    -- Productos en listas
+    SELECT
+        p.idProducto,
+        p.nombre AS producto,
+        l.nombre AS lugar,
+        pr.fechaInicio,
+        pr.fechaFinal,
+        pr.descuentoPorcentaje
+    FROM productos p
+    JOIN productosEnLista pl ON pl.producto = p.idProducto
+    JOIN listasProductos l ON l.idLista = pl.lista
+    LEFT JOIN promociones pr ON pr.producto = p.idProducto
+    WHERE l.usuario = 226
+)
+
+SELECT
+    producto,
+    lugar,
+    CASE 
+        WHEN fechaFinal> SYSDATE THEN 'T' 
+        ELSE 'F' 
+    END AS tienePromocionActiva,
+    descuentoPorcentaje,
+    (fechaFinal- fechaInicio) AS duracion
+FROM fuentes
+ORDER BY
+    NVL(descuentoPorcentaje.porcentaje, 0) DESC,
+    NVL(fechaFinal- fechaInicio, 9999);
+
