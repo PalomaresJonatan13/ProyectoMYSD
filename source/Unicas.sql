@@ -9,7 +9,6 @@ CREATE UNIQUE INDEX uk_direcciones ON Direcciones (
     usuario,
     direccion,
     ubicacion,
-    direccion,
     apartamentoCasa,
     indicaciones,
     nombreContacto,
@@ -22,4 +21,5 @@ CREATE UNIQUE INDEX uk_tarjetas ON Tarjetas (
 );
 
 ALTER TABLE ListasProductos
+
     ADD CONSTRAINT uk_listasProductos UNIQUE (usuario, nombre);
