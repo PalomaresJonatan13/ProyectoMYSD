@@ -5,8 +5,16 @@ CREATE UNIQUE INDEX uk_usuarios_email ON Usuarios (
 ALTER TABLE Ubicaciones
     ADD CONSTRAINT uk_ubicaciones UNIQUE (departamento, municipioLocalidad, barrio);
 
-ALTER TABLE Direcciones
-    ADD CONSTRAINT uk_direcciones UNIQUE (usuario, direccion, ubicacion);
+CREATE UNIQUE INDEX uk_direcciones ON Direcciones (
+    usuario,
+    direccion,
+    ubicacion,
+    direccion,
+    apartamentoCasa,
+    indicaciones,
+    nombreContacto,
+    telefono.TTelefono
+);
 
 CREATE UNIQUE INDEX uk_tarjetas ON Tarjetas (
 	numero.numeroTarjeta,

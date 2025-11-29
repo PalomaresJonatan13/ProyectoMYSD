@@ -20,7 +20,8 @@
  * end;
  */
 
-CREATE OR REPLACE TRIGGER trg_usuarios_mantener_direccion_bd
+
+CREATE OR REPLACE TRIGGER tr_direccion_bd
 BEFORE DELETE ON Direcciones
 DECLARE
     v_count NUMBER;
@@ -39,20 +40,7 @@ END;
 
 -- _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
 
-create or replace trigger trg_usuarios_mantener_usuario_bi
-before insert on Usuarios
-for each row
-declare
-begin
-    /* nota:
-     * esto ocurre implicitamente ya que el campo email en la tabla Usuarios
-     * tiene restriccion de tipo NOT NULL
-     */
-    NULL;
-end;
-/
-
-create or replace trigger trg_usuarios_mantener_usuario_ai
+create or replace trigger tr_usuario_ai
 after insert on Usuarios
 for each row
 declare
@@ -69,26 +57,13 @@ end;
 
 -- _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
 
-create or replace trigger trg_usuarios_mantener_usuario_bu_email
-before update of email on Usuarios
-for each row
-begin
-    /* nota:
-     * esto ocurre implicitamente ya que el campo email tiene un indice
-     * unico, el cual tambien es validado en actualizaciones
-     */
-     NULL;
-end;
-/
-
--- _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
-
-create or replace trigger trg_usuarios_mantener_producto_en_carrito_bi
+create or replace trigger tr_productoEnCarrito_bi
 before insert on ProductosEnCarrito
 for each row
 declare
 	pestado TEstadoProducto;
 	idUsr NUMBER;
+	disponibles NUMBER;
 begin
 	:NEW.fechaAnadido := SYSDATE;
 
@@ -103,17 +78,7 @@ begin
 	update CarritosCompras
 	set ultimaModificacion = SYSDATE
 	where usuario = :NEW.carrito;
-end;
-/
 
--- _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
-
-create or replace trigger trg_usuarios_mantener_producto_en_carrito_bi_cantidad
-before insert on ProductosEnCarrito
-for each row
-declare
-	disponibles NUMBER;
-begin
 	select cantidadInventario into disponibles
 	from Productos
 	where idProducto = :NEW.producto;
@@ -126,7 +91,7 @@ end;
 
 -- _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
 
-create or replace trigger trg_usuarios_registrar_producto_historial_visitas_bi
+create or replace trigger tr_productoEnHistorialVisitas_bi
 before insert on ProductosEnHistorialVisitas
 for each row
 declare
@@ -161,7 +126,7 @@ end;
 
 -- _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
 
-create or replace trigger trg_usuarios_mantener_lista_productos_bi
+create or replace trigger tr_listaProductos_bi
 before insert on ListasProductos
 for each row
 declare
@@ -173,7 +138,7 @@ end;
 
 -- _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
 
-create or replace trigger trg_usuarios_mantener_lista_productos_bu_attempt
+create or replace trigger tr_listaProductos_bu
 before update on ListasProductos
 for each row
 declare
@@ -190,7 +155,7 @@ end;
 
 -- _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
 
-create or replace trigger trg_usuarios_mantener_lista_productos_bd
+create or replace trigger tr_listaProductos_bd
 before delete on ListasProductos
 for each row
 declare
@@ -203,7 +168,7 @@ end;
 
 -- _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
 
-create or replace trigger trg_usuarios_mantener_producto_lista_bi
+create or replace trigger tr_productoEnLista_bi
 before insert on ProductosEnLista
 for each row
 declare
@@ -223,20 +188,12 @@ end;
 
 -- _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
 
-create or replace trigger trg_vendedores_manetener_producto_bi
+create or replace trigger tr_producto_bi
 before insert on Productos
 for each row
 declare
 begin
 	:NEW.fechaPublicacion := SYSDATE;
-
-	/* no tiene sentido este trigger ya que por definicion, envioGratis
-	 * y estado deben ser NOT NULL, cambiar ya sea el trigger o la definicion
-	 * de los attrbs de la tabla
-	 *
-	 * envioGratis         TBoolean            NOT NULL,
-	 * estado              TEstadoProducto     NOT NULL,
-	 */
 
 	if :NEW.envioGratis.boolean_ IS NULL THEN
 		:NEW.envioGratis := TBoolean('F');
@@ -250,7 +207,7 @@ end;
 
 -- _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
 
-create or replace trigger trg_vendedores_manetener_producto_bu_attempt
+create or replace trigger tr_producto_bu
 before update on Productos
 for each row
 declare
@@ -267,7 +224,7 @@ end;
 
 -- _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
 
-create or replace trigger trg_vendedores_mantener_producto_bd
+create or replace trigger tr_producto_bd
 before delete on Productos
 for each row
 declare
@@ -280,7 +237,7 @@ end;
 
 -- _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
 
-create or replace trigger trg_vendedores_mantener_promocion_bi
+create or replace trigger tr_promocion_bi
 before insert on Promociones 
 for each row
 declare
@@ -294,7 +251,7 @@ end;
 
 -- _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_
 
-create or replace trigger trg_vendedores_matener_promocion_bd
+create or replace trigger tr_promocion_bd
 before delete on Promociones
 for each row
 declare
@@ -302,5 +259,20 @@ begin
     if :OLD.fechaInicio < SYSDATE then
         RAISE_APPLICATION_ERROR(-20023, 'vendedor:promocion:delete: cannot delete a promotion that havent started yet');
     end if;
+end;
+/
+
+create or replace trigger tr_vendedor_bi
+before insert on Vendedores
+for each row
+declare
+begin
+	if :NEW.verificado is NULL then
+		RAISE_APPLICATION_ERROR(-20124, 'vendedor:vendedor:insert: verificado must be not null')
+	end if;
+
+	if :NEW.nombreVendedor is NULL then
+		RAISE_APPLICATION_ERROR(-20125, 'vendedor:vendedor:insert: nombreVendedor must be not null')
+	end if;
 end;
 /
