@@ -1,0 +1,4 @@
+DROP PACKAGE PC_Usuario;
+DROP PACKAGE PC_Direccion;
+DROP PACKAGE PC_Producto;
+DROP PACKAGE PC_Vendedor;
