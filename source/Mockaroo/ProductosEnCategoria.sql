@@ -41,7 +41,7 @@ insert into ProductosEnCategoria (producto, categoria) values (14, 'Activewear J
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (15, 'Sparkling Beverages')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (16, 'Cooking Tools & Utensils')
+insert into ProductosEnCategoria (producto, categoria) values (16, 'Cooking Tools and Utensils')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (17, 'Activewear Jackets')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -51,11 +51,11 @@ insert into ProductosEnCategoria (producto, categoria) values (19, 'Game Accesso
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (20, 'Herbs and Spices')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (21, 'Granola & Muesli')
+insert into ProductosEnCategoria (producto, categoria) values (21, 'Granola and Muesli')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (22, 'Hydration Gear')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (23, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (23, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (24, 'Whole Grains')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -79,7 +79,7 @@ insert into ProductosEnCategoria (producto, categoria) values (33, 'Spicy Dips')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (34, 'Healthy Snacks')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (35, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (35, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (36, 'Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -99,13 +99,13 @@ insert into ProductosEnCategoria (producto, categoria) values (43, 'Strength Tra
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (44, 'Camping Equipment')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (45, 'Fitness & Nutrition')
+insert into ProductosEnCategoria (producto, categoria) values (45, 'Fitness and Nutrition')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (46, 'Camping Equipment')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (47, 'Outdoor Apparel')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (48, 'Barbecue & Grilled Meats')
+insert into ProductosEnCategoria (producto, categoria) values (48, 'Barbecue and Grilled Meats')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (49, 'Bags')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -137,7 +137,7 @@ insert into ProductosEnCategoria (producto, categoria) values (62, 'Sparkling Be
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (63, 'Specialty Soups')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (64, 'Cooking Tools & Utensils')
+insert into ProductosEnCategoria (producto, categoria) values (64, 'Cooking Tools and Utensils')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (65, 'Home Organization')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -155,7 +155,7 @@ insert into ProductosEnCategoria (producto, categoria) values (71, 'Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (72, 'Nut-Based Snacks')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (73, 'Barbecue & Grilled Meats')
+insert into ProductosEnCategoria (producto, categoria) values (73, 'Barbecue and Grilled Meats')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (74, 'Canned Fruits')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -167,7 +167,7 @@ insert into ProductosEnCategoria (producto, categoria) values (77, 'T-Shirts')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (78, 'Food Preparation Tools')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (79, 'Oral Care & Hygiene')
+insert into ProductosEnCategoria (producto, categoria) values (79, 'Oral Care and Hygiene')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (80, 'Oatmeal')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -221,7 +221,7 @@ insert into ProductosEnCategoria (producto, categoria) values (104, 'Drinkware')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (105, 'Chips and Crisps')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (106, 'Oral Care & Hygiene')
+insert into ProductosEnCategoria (producto, categoria) values (106, 'Oral Care and Hygiene')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (107, 'Nut Butters')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -283,7 +283,7 @@ insert into ProductosEnCategoria (producto, categoria) values (135, 'Kids'' Bags
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (136, 'Travel Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (137, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (137, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (138, 'Camping Equipment')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -321,13 +321,13 @@ insert into ProductosEnCategoria (producto, categoria) values (154, 'Laptop Acce
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (155, 'Healthy Snacks')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (156, 'Granola & Muesli')
+insert into ProductosEnCategoria (producto, categoria) values (156, 'Granola and Muesli')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (157, 'Healthy Snacks')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (158, 'Activewear Jackets')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (159, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (159, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (160, 'Nut Butters')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -341,9 +341,9 @@ insert into ProductosEnCategoria (producto, categoria) values (164, 'Camping Equ
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (165, 'Outdoor Play Toys')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (166, 'Soups & Broths')
+insert into ProductosEnCategoria (producto, categoria) values (166, 'Soups and Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (167, 'Cooking Tools & Utensils')
+insert into ProductosEnCategoria (producto, categoria) values (167, 'Cooking Tools and Utensils')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (168, 'Food Preparation Tools')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -353,7 +353,7 @@ insert into ProductosEnCategoria (producto, categoria) values (170, 'Healthy Sna
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (171, 'Dressing')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (172, 'Personal Protective Equipment (PPE) & Disaster Preparedness')
+insert into ProductosEnCategoria (producto, categoria) values (172, 'Personal Protective Equipment (PPE) and Disaster Preparedness')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (173, 'Home Organization')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -367,7 +367,7 @@ insert into ProductosEnCategoria (producto, categoria) values (177, 'Nuts and Tr
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (178, 'Herbs and Spices')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (179, 'Granola & Muesli')
+insert into ProductosEnCategoria (producto, categoria) values (179, 'Granola and Muesli')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (180, 'Juice')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -377,9 +377,9 @@ insert into ProductosEnCategoria (producto, categoria) values (182, 'Activewear 
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (183, 'Mobile Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (184, 'Fitness & Nutrition')
+insert into ProductosEnCategoria (producto, categoria) values (184, 'Fitness and Nutrition')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (185, 'Soups & Broths')
+insert into ProductosEnCategoria (producto, categoria) values (185, 'Soups and Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (186, 'Portable Speakers')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -395,7 +395,7 @@ insert into ProductosEnCategoria (producto, categoria) values (191, 'Solar Power
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (192, 'Savory Breakfast Options')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (193, 'Barbecue & Grilled Meats')
+insert into ProductosEnCategoria (producto, categoria) values (193, 'Barbecue and Grilled Meats')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (194, 'Specialty Soups')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -459,7 +459,7 @@ insert into ProductosEnCategoria (producto, categoria) values (223, 'Meal Kits')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (224, 'Gardening Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (225, 'Personal Protective Equipment (PPE) & Disaster Preparedness')
+insert into ProductosEnCategoria (producto, categoria) values (225, 'Personal Protective Equipment (PPE) and Disaster Preparedness')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (226, 'Game Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -479,7 +479,7 @@ insert into ProductosEnCategoria (producto, categoria) values (233, 'Nuts and Tr
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (234, 'Lighting')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (235, 'Fitness & Nutrition')
+insert into ProductosEnCategoria (producto, categoria) values (235, 'Fitness and Nutrition')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (236, 'Vegetables')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -501,7 +501,7 @@ insert into ProductosEnCategoria (producto, categoria) values (244, 'Mobile Acce
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (245, 'Hydration Gear')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (246, 'Cooking Tools & Utensils')
+insert into ProductosEnCategoria (producto, categoria) values (246, 'Cooking Tools and Utensils')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (247, 'Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -525,17 +525,17 @@ insert into ProductosEnCategoria (producto, categoria) values (256, 'Drink Mixes
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (257, 'Mobile Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (258, 'Oral Care & Hygiene')
+insert into ProductosEnCategoria (producto, categoria) values (258, 'Oral Care and Hygiene')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (259, 'Home Decor')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (260, 'Markers & Pens')
+insert into ProductosEnCategoria (producto, categoria) values (260, 'Markers and Pens')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (261, 'Outdoor Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (262, 'Strength Training Equipment')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (263, 'Markers & Pens')
+insert into ProductosEnCategoria (producto, categoria) values (263, 'Markers and Pens')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (264, 'Outdoor Apparel')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -561,7 +561,7 @@ insert into ProductosEnCategoria (producto, categoria) values (274, 'Home Decor'
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (275, 'Desserts')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (276, 'Cooking Tools & Utensils')
+insert into ProductosEnCategoria (producto, categoria) values (276, 'Cooking Tools and Utensils')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (277, 'Drinkware')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -621,7 +621,7 @@ insert into ProductosEnCategoria (producto, categoria) values (304, 'Home Organi
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (305, 'Kids'' Bags')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (306, 'Barbecue & Grilled Meats')
+insert into ProductosEnCategoria (producto, categoria) values (306, 'Barbecue and Grilled Meats')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (307, 'Chocolate Desserts')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -661,7 +661,7 @@ insert into ProductosEnCategoria (producto, categoria) values (324, 'Camping Equ
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (325, 'Indoor Gardening Supplies')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (326, 'Soups & Broths')
+insert into ProductosEnCategoria (producto, categoria) values (326, 'Soups and Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (327, 'Activewear Jackets')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -671,7 +671,7 @@ insert into ProductosEnCategoria (producto, categoria) values (329, 'Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (330, 'Wireless Audio Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (331, 'Personal Protective Equipment (PPE) & Disaster Preparedness')
+insert into ProductosEnCategoria (producto, categoria) values (331, 'Personal Protective Equipment (PPE) and Disaster Preparedness')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (332, 'Outdoor Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -729,7 +729,7 @@ insert into ProductosEnCategoria (producto, categoria) values (358, 'Dairy Alter
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (359, 'Vegetables')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (360, 'Cooking Tools & Utensils')
+insert into ProductosEnCategoria (producto, categoria) values (360, 'Cooking Tools and Utensils')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (361, 'Yoga Equipment')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -741,7 +741,7 @@ insert into ProductosEnCategoria (producto, categoria) values (364, 'Canned Frui
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (365, 'Laptop Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (366, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (366, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (367, 'Healthy Snacks')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -755,7 +755,7 @@ insert into ProductosEnCategoria (producto, categoria) values (371, 'Lighting')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (372, 'Specialty Soups')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (373, 'Personal Protective Equipment (PPE) & Disaster Preparedness')
+insert into ProductosEnCategoria (producto, categoria) values (373, 'Personal Protective Equipment (PPE) and Disaster Preparedness')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (374, 'Juice')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -767,9 +767,9 @@ insert into ProductosEnCategoria (producto, categoria) values (377, 'Fruits')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (378, 'Healthy Snacks')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (379, 'Oral Care & Hygiene')
+insert into ProductosEnCategoria (producto, categoria) values (379, 'Oral Care and Hygiene')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (380, 'Markers & Pens')
+insert into ProductosEnCategoria (producto, categoria) values (380, 'Markers and Pens')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (381, 'Food Storage Solutions')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -779,7 +779,7 @@ insert into ProductosEnCategoria (producto, categoria) values (383, 'Specialty S
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (384, 'Kids'' Bags')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (385, 'Markers & Pens')
+insert into ProductosEnCategoria (producto, categoria) values (385, 'Markers and Pens')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (386, 'Hydration Gear')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -803,7 +803,7 @@ insert into ProductosEnCategoria (producto, categoria) values (395, 'Strength Tr
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (396, 'Garden Decor')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (397, 'Soups & Broths')
+insert into ProductosEnCategoria (producto, categoria) values (397, 'Soups and Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (398, 'Food Storage Solutions')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -813,7 +813,7 @@ insert into ProductosEnCategoria (producto, categoria) values (400, 'Camping Equ
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (401, 'Wireless Audio Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (402, 'Fitness & Nutrition')
+insert into ProductosEnCategoria (producto, categoria) values (402, 'Fitness and Nutrition')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (403, 'Frozen Vegetables')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -903,7 +903,7 @@ insert into ProductosEnCategoria (producto, categoria) values (445, 'Bags')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (446, 'Plant-Based Meals')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (447, 'Markers & Pens')
+insert into ProductosEnCategoria (producto, categoria) values (447, 'Markers and Pens')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (448, 'Gardening Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -955,7 +955,7 @@ insert into ProductosEnCategoria (producto, categoria) values (471, 'Laptop Acce
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (472, 'Home Decor')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (473, 'Granola & Muesli')
+insert into ProductosEnCategoria (producto, categoria) values (473, 'Granola and Muesli')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (474, 'Hydration Gear')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -997,7 +997,7 @@ insert into ProductosEnCategoria (producto, categoria) values (492, 'Lighting')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (493, 'Lighting')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (494, 'Oral Care & Hygiene')
+insert into ProductosEnCategoria (producto, categoria) values (494, 'Oral Care and Hygiene')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (495, 'Outdoor Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1029,9 +1029,9 @@ insert into ProductosEnCategoria (producto, categoria) values (508, 'Game Access
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (509, 'Nuts and Trail Mix')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (510, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (510, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (511, 'Oral Care & Hygiene')
+insert into ProductosEnCategoria (producto, categoria) values (511, 'Oral Care and Hygiene')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (512, 'Outdoor Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1047,13 +1047,13 @@ insert into ProductosEnCategoria (producto, categoria) values (517, 'Rice')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (518, 'Herbs and Spices')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (519, 'Personal Protective Equipment (PPE) & Disaster Preparedness')
+insert into ProductosEnCategoria (producto, categoria) values (519, 'Personal Protective Equipment (PPE) and Disaster Preparedness')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (520, 'Soups & Broths')
+insert into ProductosEnCategoria (producto, categoria) values (520, 'Soups and Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (521, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (521, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (522, 'Fitness & Nutrition')
+insert into ProductosEnCategoria (producto, categoria) values (522, 'Fitness and Nutrition')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (523, 'Fitness Monitors')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1079,7 +1079,7 @@ insert into ProductosEnCategoria (producto, categoria) values (533, 'Oatmeal')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (534, 'Sparkling Beverages')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (535, 'Fitness & Nutrition')
+insert into ProductosEnCategoria (producto, categoria) values (535, 'Fitness and Nutrition')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (536, 'Gardening Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1087,7 +1087,7 @@ insert into ProductosEnCategoria (producto, categoria) values (537, 'Condiments'
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (538, 'Dairy Alternatives')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (539, 'Fitness & Nutrition')
+insert into ProductosEnCategoria (producto, categoria) values (539, 'Fitness and Nutrition')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (540, 'Canned Legumes')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1119,7 +1119,7 @@ insert into ProductosEnCategoria (producto, categoria) values (553, 'Camping Equ
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (554, 'Nuts and Trail Mix')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (555, 'Granola & Muesli')
+insert into ProductosEnCategoria (producto, categoria) values (555, 'Granola and Muesli')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (556, 'Lighting')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1143,13 +1143,13 @@ insert into ProductosEnCategoria (producto, categoria) values (565, 'Travel Acce
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (566, 'Outdoor Play Toys')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (567, 'Barbecue & Grilled Meats')
+insert into ProductosEnCategoria (producto, categoria) values (567, 'Barbecue and Grilled Meats')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (568, 'Sparkling Beverages')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (569, 'Home Decor')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (570, 'Oral Care & Hygiene')
+insert into ProductosEnCategoria (producto, categoria) values (570, 'Oral Care and Hygiene')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (571, 'Healthy Snacks')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1169,7 +1169,7 @@ insert into ProductosEnCategoria (producto, categoria) values (578, 'Portable Sp
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (579, 'Nut-Based Snacks')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (580, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (580, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (581, 'T-Shirts')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1189,7 +1189,7 @@ insert into ProductosEnCategoria (producto, categoria) values (588, 'Condiments'
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (589, 'Home Organization')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (590, 'Granola & Muesli')
+insert into ProductosEnCategoria (producto, categoria) values (590, 'Granola and Muesli')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (591, 'Mobile Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1207,7 +1207,7 @@ insert into ProductosEnCategoria (producto, categoria) values (597, 'Lighting')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (598, 'Hydration Gear')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (599, 'Personal Protective Equipment (PPE) & Disaster Preparedness')
+insert into ProductosEnCategoria (producto, categoria) values (599, 'Personal Protective Equipment (PPE) and Disaster Preparedness')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (600, 'Herbs and Spices')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1247,7 +1247,7 @@ insert into ProductosEnCategoria (producto, categoria) values (617, 'Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (618, 'Wireless Audio Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (619, 'Personal Protective Equipment (PPE) & Disaster Preparedness')
+insert into ProductosEnCategoria (producto, categoria) values (619, 'Personal Protective Equipment (PPE) and Disaster Preparedness')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (620, 'Nuts and Trail Mix')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1319,7 +1319,7 @@ insert into ProductosEnCategoria (producto, categoria) values (653, 'Mustards')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (654, 'Frozen Vegetables')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (655, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (655, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (656, 'Meal Kits')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1341,7 +1341,7 @@ insert into ProductosEnCategoria (producto, categoria) values (664, 'Camping Equ
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (665, 'Vegetables')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (666, 'Soups & Broths')
+insert into ProductosEnCategoria (producto, categoria) values (666, 'Soups and Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (667, 'Garden Decor')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1403,7 +1403,7 @@ insert into ProductosEnCategoria (producto, categoria) values (695, 'Nuts and Tr
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (696, 'Outdoor Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (697, 'Soups & Broths')
+insert into ProductosEnCategoria (producto, categoria) values (697, 'Soups and Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (698, 'Dressing')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1439,7 +1439,7 @@ insert into ProductosEnCategoria (producto, categoria) values (713, 'Frozen Vege
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (714, 'Specialty Soups')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (715, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (715, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (716, 'Lighting')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1455,7 +1455,7 @@ insert into ProductosEnCategoria (producto, categoria) values (721, 'Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (722, 'Plant-Based Meals')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (723, 'Markers & Pens')
+insert into ProductosEnCategoria (producto, categoria) values (723, 'Markers and Pens')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (724, 'Outdoor Play Toys')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1471,7 +1471,7 @@ insert into ProductosEnCategoria (producto, categoria) values (729, 'Herbs and S
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (730, 'Kids'' Bags')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (731, 'Oral Care & Hygiene')
+insert into ProductosEnCategoria (producto, categoria) values (731, 'Oral Care and Hygiene')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (732, 'Healthy Snacks')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1499,7 +1499,7 @@ insert into ProductosEnCategoria (producto, categoria) values (743, 'Specialty S
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (744, 'Outdoor Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (745, 'Oral Care & Hygiene')
+insert into ProductosEnCategoria (producto, categoria) values (745, 'Oral Care and Hygiene')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (746, 'Activewear Jackets')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1513,11 +1513,11 @@ insert into ProductosEnCategoria (producto, categoria) values (750, 'Camping Equ
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (751, 'Laptop Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (752, 'Barbecue & Grilled Meats')
+insert into ProductosEnCategoria (producto, categoria) values (752, 'Barbecue and Grilled Meats')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (753, 'Healthy Snacks')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (754, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (754, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (755, 'Plant-Based Meals')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1525,7 +1525,7 @@ insert into ProductosEnCategoria (producto, categoria) values (756, 'Dairy Alter
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (757, 'Portable Speakers')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (758, 'Barbecue & Grilled Meats')
+insert into ProductosEnCategoria (producto, categoria) values (758, 'Barbecue and Grilled Meats')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (759, 'Juice')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1533,7 +1533,7 @@ insert into ProductosEnCategoria (producto, categoria) values (760, 'Whole Grain
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (761, 'Garden Decor')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (762, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (762, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (763, 'Laptop Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1601,11 +1601,11 @@ insert into ProductosEnCategoria (producto, categoria) values (794, 'Condiments'
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (795, 'Healthy Snacks')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (796, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (796, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (797, 'Nut Butters')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (798, 'Oral Care & Hygiene')
+insert into ProductosEnCategoria (producto, categoria) values (798, 'Oral Care and Hygiene')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (799, 'Wireless Audio Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1633,11 +1633,11 @@ insert into ProductosEnCategoria (producto, categoria) values (810, 'Savory Brea
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (811, 'Kids'' Bags')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (812, 'Markers & Pens')
+insert into ProductosEnCategoria (producto, categoria) values (812, 'Markers and Pens')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (813, 'Oral Care & Hygiene')
+insert into ProductosEnCategoria (producto, categoria) values (813, 'Oral Care and Hygiene')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (814, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (814, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (815, 'Chips and Crisps')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1647,7 +1647,7 @@ insert into ProductosEnCategoria (producto, categoria) values (817, 'Food Storag
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (818, 'Mobile Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (819, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (819, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (820, 'Food Storage Solutions')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1669,11 +1669,11 @@ insert into ProductosEnCategoria (producto, categoria) values (828, 'Food Storag
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (829, 'Potatoes')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (830, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (830, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (831, 'Lighting')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (832, 'Personal Protective Equipment (PPE) & Disaster Preparedness')
+insert into ProductosEnCategoria (producto, categoria) values (832, 'Personal Protective Equipment (PPE) and Disaster Preparedness')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (833, 'Portable Speakers')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1691,7 +1691,7 @@ insert into ProductosEnCategoria (producto, categoria) values (839, 'Herbs and S
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (840, 'Fruits')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (841, 'Granola & Muesli')
+insert into ProductosEnCategoria (producto, categoria) values (841, 'Granola and Muesli')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (842, 'Meal Kits')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1723,7 +1723,7 @@ insert into ProductosEnCategoria (producto, categoria) values (855, 'Food Storag
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (856, 'Nut Butters')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (857, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (857, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (858, 'Healthy Snacks')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1731,7 +1731,7 @@ insert into ProductosEnCategoria (producto, categoria) values (859, 'Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (860, 'Superfoods')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (861, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (861, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (862, 'Home Organization')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1743,11 +1743,11 @@ insert into ProductosEnCategoria (producto, categoria) values (865, 'Food Storag
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (866, 'Canned Fruits')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (867, 'Soups & Broths')
+insert into ProductosEnCategoria (producto, categoria) values (867, 'Soups and Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (868, 'Outdoor Play Toys')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (869, 'Soups & Broths')
+insert into ProductosEnCategoria (producto, categoria) values (869, 'Soups and Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (870, 'Fruits')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1755,7 +1755,7 @@ insert into ProductosEnCategoria (producto, categoria) values (871, 'Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (872, 'Activewear Jackets')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (873, 'Cooking Tools & Utensils')
+insert into ProductosEnCategoria (producto, categoria) values (873, 'Cooking Tools and Utensils')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (874, 'Laptop Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1831,9 +1831,9 @@ insert into ProductosEnCategoria (producto, categoria) values (909, 'Wireless Au
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (910, 'Gardening Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (911, 'Fitness & Nutrition')
+insert into ProductosEnCategoria (producto, categoria) values (911, 'Fitness and Nutrition')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (912, 'Fitness & Nutrition')
+insert into ProductosEnCategoria (producto, categoria) values (912, 'Fitness and Nutrition')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (913, 'Mobile Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1843,7 +1843,7 @@ insert into ProductosEnCategoria (producto, categoria) values (915, 'Juice')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (916, 'T-Shirts')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (917, 'Fitness & Nutrition')
+insert into ProductosEnCategoria (producto, categoria) values (917, 'Fitness and Nutrition')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (918, 'Fruits')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1857,7 +1857,7 @@ insert into ProductosEnCategoria (producto, categoria) values (922, 'Nuts and Tr
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (923, 'Whole Grains')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (924, 'Granola & Muesli')
+insert into ProductosEnCategoria (producto, categoria) values (924, 'Granola and Muesli')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (925, 'Mobile Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1865,7 +1865,7 @@ insert into ProductosEnCategoria (producto, categoria) values (926, 'Juice')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (927, 'Outdoor Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (928, 'Barbecue & Grilled Meats')
+insert into ProductosEnCategoria (producto, categoria) values (928, 'Barbecue and Grilled Meats')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (929, 'Food Storage Solutions')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1917,23 +1917,23 @@ insert into ProductosEnCategoria (producto, categoria) values (952, 'Garden Supp
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (953, 'Savory Breakfast Options')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (954, 'Barbecue & Grilled Meats')
+insert into ProductosEnCategoria (producto, categoria) values (954, 'Barbecue and Grilled Meats')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (955, 'Travel Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (956, 'Healthy Snacks')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (957, 'Granola & Muesli')
+insert into ProductosEnCategoria (producto, categoria) values (957, 'Granola and Muesli')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (958, 'Barbecue & Grilled Meats')
+insert into ProductosEnCategoria (producto, categoria) values (958, 'Barbecue and Grilled Meats')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (959, 'Healthy Salads')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (960, 'Personal Protective Equipment (PPE) & Disaster Preparedness')
+insert into ProductosEnCategoria (producto, categoria) values (960, 'Personal Protective Equipment (PPE) and Disaster Preparedness')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (961, 'Nuts and Trail Mix')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (962, 'Cooking Tools & Utensils')
+insert into ProductosEnCategoria (producto, categoria) values (962, 'Cooking Tools and Utensils')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (963, 'Fitness Monitors')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1947,7 +1947,7 @@ insert into ProductosEnCategoria (producto, categoria) values (967, 'Lighting')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (968, 'Activewear Jackets')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (969, 'Soups & Broths')
+insert into ProductosEnCategoria (producto, categoria) values (969, 'Soups and Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (970, 'Savory Breakfast Options')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1961,13 +1961,13 @@ insert into ProductosEnCategoria (producto, categoria) values (974, 'Superfoods'
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (975, 'Camping Equipment')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (976, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (976, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (977, 'Juice')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (978, 'Frozen Vegetables')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (979, 'Markers & Pens')
+insert into ProductosEnCategoria (producto, categoria) values (979, 'Markers and Pens')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (980, 'nombre')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1975,7 +1975,7 @@ insert into ProductosEnCategoria (producto, categoria) values (981, 'Nut Butters
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (982, 'Frozen Vegetables')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (983, 'Soups & Broths')
+insert into ProductosEnCategoria (producto, categoria) values (983, 'Soups and Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (984, 'Mobile Accessories')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -1993,7 +1993,7 @@ insert into ProductosEnCategoria (producto, categoria) values (990, 'Specialty S
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (991, 'Canned Fruits')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (992, 'Soups & Broths')
+insert into ProductosEnCategoria (producto, categoria) values (992, 'Soups and Broths')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (993, 'Specialty Soups')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
@@ -2001,7 +2001,7 @@ insert into ProductosEnCategoria (producto, categoria) values (994, 'Outdoor Acc
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (995, 'Specialty Soups')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
-insert into ProductosEnCategoria (producto, categoria) values (996, 'Pancakes & Waffles')
+insert into ProductosEnCategoria (producto, categoria) values (996, 'Pancakes and Waffles')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;
 insert into ProductosEnCategoria (producto, categoria) values (997, 'Outdoor Play Toys')
     LOG ERRORS INTO ERRORS_ProductosEnCategoria REJECT LIMIT 1;

@@ -2012,8 +2012,6 @@ insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, 
 insert into Usuarios (email, nombres, apellidos, telefono, contrasena, tipoDoc, numeroDoc) values (TEmail('kscarboroughrr@google.pl'), 'Kimmie', 'Scarborough', TTelefono(3342548914), TContrasena('gZ6"c70q3R'), TTipoDoc('CC'), TNumeroDoc(923122085))
     LOG ERRORS INTO ERRORS_Usuarios REJECT LIMIT 1;    
 
-
-
 SELECT ora_err_mesg$, idUsuario
 FROM   ERRORS_Usuarios;
 
