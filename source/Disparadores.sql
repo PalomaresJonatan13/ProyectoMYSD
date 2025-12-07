@@ -52,6 +52,20 @@ begin
         :NEW.idUsuario,
         'Favoritos'
     );
+    
+    INSERT INTO CarritosCompras (
+        usuario,
+        ultimaModificacion
+    ) VALUES (
+        :NEW.idUsuario,
+        SYSDATE
+    );
+    
+    INSERT INTO HistorialesVisitas (
+        usuario
+    ) VALUES (
+        :NEW.idUsuario
+    );
 end;
 /
 
@@ -84,7 +98,7 @@ begin
 	where idProducto = :NEW.producto;
 
 	if disponibles < :NEW.cantidad then
-		RAISE_APPLICATION_ERROR(-20007, 'usuario:producto-carrito:update:cantidad: aint that amount (stock < indicated amount)');
+		RAISE_APPLICATION_ERROR(-20007, 'usuario:producto-carrito:insrt:cantidad: aint that amount (stock < indicated amount)');
 	end if;
 end;
 /
@@ -179,6 +193,10 @@ begin
 	select estado into pestado
 	from Productos
 	where idProducto = :NEW.producto;
+    
+    update ListasProductos
+	set ultimaModificacion = SYSDATE
+	where idLista = :NEW.lista;
 
 	if pestado.estadoProducto = 'Pausado' then
 		RAISE_APPLICATION_ERROR(-20014, 'usuario:producto-lista:insert: only active non paused products can be added');
@@ -219,6 +237,18 @@ begin
 	if :NEW.fechaPublicacion <> :OLD.fechaPublicacion then
 		RAISE_APPLICATION_ERROR(-20018, 'vendedor:producto:update: cannot update products publication date');
 	end if;
+    
+    if :NEW.estado.estadoProducto = 'Descontinuado' then
+        delete from ProductosEnCarrito
+        where producto = :OLD.idProducto;
+    
+        delete from ProductosEnLista
+        where producto = :OLD.idProducto;
+    end if;
+    
+    if :OLD.estado.estadoProducto = 'Descontinuado' then
+        RAISE_APPLICATION_ERROR(-20018, 'vendedor:producto:update: cannot update a descontinued product');
+    end if;
 end;
 /
 
@@ -243,6 +273,9 @@ for each row
 declare
 	hrsDiff NUMBER;
 begin
+    if :NEW.fechaInicio = NULL then
+        :NEW.fechaInicio := SYSDATE;
+    end if;
 	if :NEW.fechaInicio < SYSDATE THEN
 		RAISE_APPLICATION_ERROR(-20020, 'vendedor:promocion:insrt: starting date cannot be before the current date');
 	end if;
@@ -262,17 +295,16 @@ begin
 end;
 /
 
--- create or replace trigger tr_vendedor_bi
--- before insert on Vendedores
--- for each row
--- declare
--- begin
--- 	if :NEW.verificado is NULL then
--- 		RAISE_APPLICATION_ERROR(-20124, 'vendedor:vendedor:insert: verificado must be not null')
--- 	end if;
-
--- 	if :NEW.nombreVendedor is NULL then
--- 		RAISE_APPLICATION_ERROR(-20125, 'vendedor:vendedor:insert: nombreVendedor must be not null')
--- 	end if;
--- end;
--- /
+create or replace trigger tr_promocion_bu
+before update on Promociones
+for each row
+declare
+begin
+    if :OLD.fechaFinal < SYSDATE and :NEW.fechaFinal <> :OLD.fechaFinal then
+        RAISE_APPLICATION_ERROR(-20023, 'vendedor:promocion:update: i give up');
+    end if;
+    
+    if :OLD.fechaInicio < SYSDATE and (:NEW.fechaInicio <> :OLD.fechaInicio OR :NEW.descuentoPorcentaje.porcentaje <> :OLD.descuentoPorcentaje.porcentaje) then
+        RAISE_APPLICATION_ERROR(-20023, 'vendedor:promocion:update: ');    
+    end if;
+end;

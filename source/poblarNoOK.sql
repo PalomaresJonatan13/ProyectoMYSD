@@ -1,3 +1,4 @@
+-- TODO
 -- CarritoCompras
 -- FK violada
 insert into CarritosCompras (usuario, ultimaModificacion) values (40, TO_DATE('18/02/2025', 'DD/MM/YYYY'));

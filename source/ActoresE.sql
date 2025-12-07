@@ -89,11 +89,6 @@ CREATE OR REPLACE PACKAGE PA_Usuario AS
                 cantidad_ NUMBER
         );
 
-        PROCEDURE ElProductoEnLista (
-                lista_ NUMBER,
-                producto_ NUMBER
-        );
-
         FUNCTION CoProducto (
                 idProducto_ NUMBER
         ) RETURN SYS_REFCURSOR;
@@ -160,6 +155,35 @@ CREATE OR REPLACE PACKAGE PA_Usuario AS
 
         FUNCTION CoProductoEnCategoriaCategoria (
                 categoria_ VARCHAR
+        ) RETURN SYS_REFCURSOR;
+        
+                PROCEDURE AdListaProductos (
+                nombre_ VARCHAR,
+                usuario_ NUMBER
+        );
+
+        PROCEDURE ModListaProductosNombre (
+                idLista_ NUMBER,
+                nombre_ VARCHAR
+        );
+        
+        PROCEDURE ElListaProductos (
+            idLista_ NUMBER
+        );
+        
+        PROCEDURE AdProductoEnLista (
+                lista_ NUMBER,
+                producto_ NUMBER
+        );
+
+        PROCEDURE ElProductoEnLista (
+                lista_ NUMBER,
+                producto_ NUMBER
+        );
+
+        FUNCTION CoProductoEnLista (
+                lista_ NUMBER,
+                producto_ NUMBER
         ) RETURN SYS_REFCURSOR;
 END PA_Usuario;
 
@@ -329,7 +353,7 @@ CREATE OR REPLACE PACKAGE PA_Vendedor AS
         ) RETURN SYS_REFCURSOR;
 
         PROCEDURE AdProducto (
-                nombre_ NUMBER,
+                nombre_ VARCHAR,
                 precio_ NUMBER,
                 cantidadInventario_ NUMBER,
                 cantidadDisponible_ NUMBER,
@@ -337,7 +361,8 @@ CREATE OR REPLACE PACKAGE PA_Vendedor AS
                 especificaciones_ VARCHAR,
                 tiempoGarantia_ TTiempoGarantia,
                 estado_ TEstadoProducto,
-                envioGratis_ TBoolean
+                envioGratis_ TBoolean,
+                vendedor_ NUMBER
         );
 
         PROCEDURE ModProductoPrecio (
@@ -470,7 +495,22 @@ CREATE OR REPLACE PACKAGE PA_Administrador AS
                 carrito_ NUMBER,
                 producto_ NUMBER
         ) RETURN SYS_REFCURSOR;
+        
+        PROCEDURE AdListaProductos (
+                nombre_ VARCHAR,
+                usuario_ NUMBER
+        );
 
+        PROCEDURE ModListaProductosNombre (
+                idLista_ NUMBER,
+                nombre_ VARCHAR
+        );
+        
+        PROCEDURE ElListaProductos (
+            idLista_ NUMBER
+        );
+
+        
         FUNCTION CoListaProductos (
                 idLista_ NUMBER
         ) RETURN SYS_REFCURSOR;

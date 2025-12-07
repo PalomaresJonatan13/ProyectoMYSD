@@ -91,3 +91,24 @@ CREATE OR REPLACE TYPE TTipoTarjeta AS OBJECT (
 CREATE OR REPLACE TYPE TBoolean AS OBJECT (
     boolean_ CHAR(1)
 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

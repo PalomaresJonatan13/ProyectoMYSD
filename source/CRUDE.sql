@@ -119,7 +119,7 @@ CREATE OR REPLACE PACKAGE PC_Usuario AS
                 idLista_ NUMBER
         ) RETURN SYS_REFCURSOR;
 
-        PROCEDURE ElListaProducts (
+        PROCEDURE ElListaProductos (
                 idLista_ NUMBER
         );
 

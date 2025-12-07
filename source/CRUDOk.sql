@@ -79,7 +79,10 @@ PC_USUARIO.ModUsuarioEmail(
 end;
 /
 
+-- TODO: anadir el carritooooooooooooooooo
+
 select * from Usuarios;
+select * from ListasProductos;
 
 ----------------------------------------------------------------------------
 
@@ -128,7 +131,7 @@ END;
 
 begin
 PC_Vendedor.AdVendedor(
-    1,
+    2,
     NULL,
     NULL
 );
@@ -142,8 +145,8 @@ begin
 PC_Producto.AdProducto(
     'Celular',
     3456,
-    1,
-    1,
+    2,
+    2,
     'Un celular, daa??',
     'Smartphone',
     NULL,

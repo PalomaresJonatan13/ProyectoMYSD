@@ -1,10 +1,4 @@
-CREATE OR REPLACE PACKAGE BODY PC_Usuario AS
-
-    
-    
-    
-
-    
+CREATE OR REPLACE PACKAGE BODY PC_Usuario AS    
     PROCEDURE AdUsuario(
         email_ TEmail,
         nombres_ VARCHAR,
@@ -199,7 +193,6 @@ CREATE OR REPLACE PACKAGE BODY PC_Usuario AS
     
     
 
-    
     PROCEDURE AdProductoEnCarrito (
         carrito_ NUMBER,
         producto_ NUMBER,
@@ -207,7 +200,12 @@ CREATE OR REPLACE PACKAGE BODY PC_Usuario AS
     )
     AS
     BEGIN
-        NULL;
+        INSERT INTO ProductosEnCarrito VALUES (
+            carrito_,
+            producto_,
+            NULL,
+            cantidad_
+        );
     END AdProductoEnCarrito;
 
     
@@ -252,11 +250,6 @@ CREATE OR REPLACE PACKAGE BODY PC_Usuario AS
         RETURN rc;
     END CoProductoEnCarrito;
 
-    
-    
-    
-
-    
     PROCEDURE AdListaProductos (
         nombre_ VARCHAR,
         usuario_ NUMBER
@@ -300,7 +293,7 @@ CREATE OR REPLACE PACKAGE BODY PC_Usuario AS
     END CoListaProductos;
 
     
-    PROCEDURE ElListaProducts (
+    PROCEDURE ElListaProductos (
         idLista_ NUMBER
     )
     AS
@@ -308,7 +301,7 @@ CREATE OR REPLACE PACKAGE BODY PC_Usuario AS
         DELETE FROM ListasProductos
         WHERE idLista = idLista_;
         
-    END ElListaProducts;
+    END ElListaProductos;
 
     
     PROCEDURE AdProductoEnLista (

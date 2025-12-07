@@ -1,5 +1,6 @@
 SET SERVEROUTPUT ON;
 
+-- decir porque
 begin
 PC_USUARIO.adUsuario(
     TEmail('juan.patino@mail.com'),
@@ -193,3 +194,9 @@ select * from CategoriasProducto;
 begin
 PC_Producto.ElCategoriaProducto();
 end;
+
+
+
+
+
+

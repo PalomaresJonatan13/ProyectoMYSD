@@ -37,74 +37,58 @@ INSERT INTO Direcciones (usuario, direccion, ubicacion, apartamentoCasa, indicac
 INSERT INTO Direcciones (usuario, direccion, ubicacion, apartamentoCasa, indicaciones, nombreContacto, telefonoContacto) 
     VALUES (3, '98 Loeprich Street', 3, 'Room 1229', 'sit amet eros suspendisse accumsan tortor quis', 'Allard Utton', TTelefono(3555228224));
 
--- Carrito de compras
-INSERT INTO CarritosCompras (usuario, ultimaModificacion) 
-    VALUES (1, TO_DATE('16/06/2025', 'DD/MM/YYYY'));
-INSERT INTO CarritosCompras (usuario, ultimaModificacion) 
-    VALUES (2, TO_DATE('27/07/2025', 'DD/MM/YYYY'));
-INSERT INTO CarritosCompras (usuario, ultimaModificacion) 
-    VALUES (3, TO_DATE('29/01/2025', 'DD/MM/YYYY'));
-
--- Historial de visitas
-INSERT INTO HistorialesVisitas (usuario) 
-    VALUES (1);
-INSERT INTO HistorialesVisitas (usuario) 
-    VALUES (2);
-INSERT INTO HistorialesVisitas (usuario) 
-    VALUES (3);
-
 -- Listas de usuario
 INSERT INTO ListasProductos (usuario, nombre, fechaCreacion, ultimaModificacion) 
-    VALUES (1, 'Favoritos', TO_DATE('25/12/2024', 'DD/MM/YYYY'), TO_DATE('14/10/2025', 'DD/MM/YYYY'));
+    VALUES (1, 'BS', TO_DATE('25/12/2027', 'DD/MM/YYYY'), TO_DATE('14/10/2027', 'DD/MM/YYYY'));
 INSERT INTO ListasProductos (usuario, nombre, fechaCreacion, ultimaModificacion) 
-    VALUES (2, 'Favoritos', TO_DATE('15/02/2025', 'DD/MM/YYYY'), TO_DATE('01/09/2025', 'DD/MM/YYYY'));
+    VALUES (2, 'nike', TO_DATE('15/02/2027', 'DD/MM/YYYY'), TO_DATE('01/09/2027', 'DD/MM/YYYY'));
 INSERT INTO ListasProductos (usuario, nombre, fechaCreacion, ultimaModificacion) 
-    VALUES (3, 'Favoritos', TO_DATE('28/12/2024', 'DD/MM/YYYY'), TO_DATE('22/08/2025', 'DD/MM/YYYY'));
+    VALUES (3, 'adidas', TO_DATE('28/12/2027', 'DD/MM/YYYY'), TO_DATE('22/08/2027', 'DD/MM/YYYY'));
 
 -- Productos
 INSERT INTO Productos (nombre, precio, cantidadInventario, descripcion, fechaPublicacion, especificaciones, envioGratis, estado, vendedor) 
-    VALUES ('Frozen Fruit Medley', 96813915.3, 90, 'A mix of strawberries, blueberries, and raspberries, perfect for smoothies.', TO_DATE(TO_DATE('27/03/2025', 'DD/MM/YYYY'), 'DD/MM/YYYY'), 'ut volutpat sapien arcu sed augue aliquam erat volutpat in congue', TBoolean('F'), TEstadoProducto('Descontinuado'), 1);
+    VALUES ('Frozen Fruit Medley', 96813915.3, 90, 'A mix of strawberries, blueberries, and raspberries, perfect for smoothies.', TO_DATE(TO_DATE('27/03/2027', 'DD/MM/YYYY'), 'DD/MM/YYYY'), 'ut volutpat sapien arcu sed augue aliquam erat volutpat in congue', TBoolean('F'), TEstadoProducto('Activo'), 1);
 
 INSERT INTO Productos (nombre, precio, cantidadInventario, descripcion, fechaPublicacion, especificaciones, envioGratis, estado, vendedor) 
-    VALUES ('Luxury Yoga Mat', 69420168.76, 44, 'High-density, non-slip yoga mat for stability and comfort.', TO_DATE(TO_DATE('14/10/2025', 'DD/MM/YYYY'), 'DD/MM/YYYY'), 'mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices', TBoolean('F'), TEstadoProducto('Descontinuado'), 2);
+    VALUES ('Luxury Yoga Mat', 69420168.76, 44, 'High-density, non-slip yoga mat for stability and comfort.', TO_DATE(TO_DATE('14/10/2027', 'DD/MM/YYYY'), 'DD/MM/YYYY'), 'mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices', TBoolean('F'), TEstadoProducto('Activo'), 2);
 
 INSERT INTO Productos (nombre, precio, cantidadInventario, descripcion, fechaPublicacion, especificaciones, envioGratis, estado, vendedor) 
-    VALUES ('Collapsible Colander', 79223106.56, 85, 'Space-saving colander for rinsing fruits and vegetables.', TO_DATE(TO_DATE('14/02/2025', 'DD/MM/YYYY'), 'DD/MM/YYYY'), 'ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum', TBoolean('F'), TEstadoProducto('Descontinuado'), 1);
+    VALUES ('Collapsible Colander', 79223106.56, 85, 'Space-saving colander for rinsing fruits and vegetables.', TO_DATE(TO_DATE('14/02/2027', 'DD/MM/YYYY'), 'DD/MM/YYYY'), 'ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum', TBoolean('F'), TEstadoProducto('Activo'), 1);
 
 -- Productos en carrito
 INSERT INTO ProductosEnCarrito (carrito, producto, fechaAnadido, cantidad) 
-    VALUES (1, 1, TO_DATE('27/10/2025', 'DD/MM/YYYY'), 92);
+    VALUES (1, 1, TO_DATE('27/10/2027', 'DD/MM/YYYY'), 1);
 INSERT INTO ProductosEnCarrito (carrito, producto, fechaAnadido, cantidad) 
-    VALUES (2, 2, TO_DATE('28/03/2025', 'DD/MM/YYYY'), 82);
+    VALUES (2, 2, TO_DATE('28/03/2027', 'DD/MM/YYYY'), 1);
 INSERT INTO ProductosEnCarrito (carrito, producto, fechaAnadido, cantidad) 
-    VALUES (3, 3, TO_DATE('03/07/2025', 'DD/MM/YYYY'), 75);
+    VALUES (3, 3, TO_DATE('03/07/2027', 'DD/MM/YYYY'), 1);
 
 -- Productos en historial visitas
 INSERT INTO ProductosEnHistorialVisitas (historial, producto, fechaVisto) 
-    VALUES (1, 1, TO_DATE(TO_DATE('27/10/2025', 'DD/MM/YYYY'), 'DD/MM/YYYY'));
+    VALUES (1, 1, TO_DATE(TO_DATE('27/10/2027', 'DD/MM/YYYY'), 'DD/MM/YYYY'));
 INSERT INTO ProductosEnHistorialVisitas (historial, producto, fechaVisto) 
-    VALUES (2, 2, TO_DATE(TO_DATE('28/03/2025', 'DD/MM/YYYY'), 'DD/MM/YYYY'));
+    VALUES (2, 2, TO_DATE(TO_DATE('28/03/2027', 'DD/MM/YYYY'), 'DD/MM/YYYY'));
 INSERT INTO ProductosEnHistorialVisitas (historial, producto, fechaVisto) 
-    VALUES (3, 3, TO_DATE(TO_DATE('03/07/2025', 'DD/MM/YYYY'), 'DD/MM/YYYY'));
+    VALUES (3, 3, TO_DATE(TO_DATE('03/07/2027', 'DD/MM/YYYY'), 'DD/MM/YYYY'));
 
 -- Productos en lista
 INSERT INTO ProductosEnLista (lista, producto, fechaAnadido) 
-    VALUES (1, 1, TO_DATE('10/02/2025', 'DD/MM/YYYY'));
+    VALUES (1, 1, TO_DATE('10/02/2027', 'DD/MM/YYYY'));
 INSERT INTO ProductosEnLista (lista, producto, fechaAnadido) 
-    VALUES (2, 2, TO_DATE('21/10/2025', 'DD/MM/YYYY'));
+    VALUES (2, 2, TO_DATE('21/10/2027', 'DD/MM/YYYY'));
 INSERT INTO ProductosEnLista (lista, producto, fechaAnadido) 
-    VALUES (3, 3, TO_DATE('27/01/2025', 'DD/MM/YYYY'));
+    VALUES (3, 3, TO_DATE('27/01/2027', 'DD/MM/YYYY'));
 
 -- Promociones
 INSERT INTO Promociones (producto, fechaInicio, fechaFinal, descuentoPorcentaje) 
-    VALUES (1, TO_DATE('01/01/2025', 'DD/MM/YYYY'), TO_DATE('24/10/2025', 'DD/MM/YYYY'), TPorcentaje(90));
+    VALUES (1, TO_DATE('01/01/2027', 'DD/MM/YYYY'), TO_DATE('24/10/2027', 'DD/MM/YYYY'), TPorcentaje(90));
 
 INSERT INTO Promociones (producto, fechaInicio, fechaFinal, descuentoPorcentaje) 
-    VALUES (2, TO_DATE('25/06/2025', 'DD/MM/YYYY'), TO_DATE('17/10/2024', 'DD/MM/YYYY'), TPorcentaje(92));
+    VALUES (2, TO_DATE('25/06/2027', 'DD/MM/YYYY'), TO_DATE('17/10/2027', 'DD/MM/YYYY'), TPorcentaje(92));
     
     
 INSERT INTO Promociones (producto, fechaInicio, fechaFinal, descuentoPorcentaje) 
-    VALUES (3, TO_DATE('16/02/2025', 'DD/MM/YYYY'), TO_DATE('25/07/2025', 'DD/MM/YYYY'), TPorcentaje(55));
+    VALUES (3, TO_DATE('16/02/2027', 'DD/MM/YYYY'), TO_DATE('25/07/2027', 'DD/MM/YYYY'), TPorcentaje(55));
 
 -- Categorias en productos
 INSERT INTO CategoriasProducto (nombre, superCategoria) 
@@ -121,3 +105,7 @@ INSERT INTO ProductosEnCategoria (producto, categoria)
     VALUES (2, 'Laptop Accessories');
 INSERT INTO ProductosEnCategoria (producto, categoria) 
     VALUES (3, 'Healthy Snacks');
+
+
+
+

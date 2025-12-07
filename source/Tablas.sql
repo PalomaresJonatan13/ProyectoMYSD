@@ -9,10 +9,6 @@ CREATE TABLE Usuarios (
         numeroDoc   TNumeroDoc      NULL
 );
 
-ALTER TABLE Usuarios ADD CONSTRAINT ck_usuarios_email 
-CHECK (REGEXP_LIKE(email.email, '^[A-Za-z0-9._]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$'));
-
-
 CREATE TABLE Ubicaciones (
         idUbicacion         NUMBER GENERATED ALWAYS AS IDENTITY,
         departamento        VARCHAR2(50)    NOT NULL,

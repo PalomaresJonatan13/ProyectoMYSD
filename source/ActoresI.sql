@@ -1,13 +1,13 @@
 CREATE OR REPLACE PACKAGE BODY PA_Usuario AS
-    PROCEDURE AdUsuario(
-        email_ TEmail,
-        nombres_ VARCHAR,
-        apellidos_ VARCHAR,
-        nombreUsuario_ TNombreUsuario, 
-        telefono_ TTelefono,
-        contrasena_ TContrasena,
-        tipoDoc_ TTipoDoc,
-        numeroDoc_ TNumeroDoc
+        PROCEDURE AdUsuario(
+                email_ TEmail,
+                nombres_ VARCHAR,
+                apellidos_ VARCHAR,
+                nombreUsuario_ TNombreUsuario,
+                telefono_ TTelefono,
+                contrasena_ TContrasena,
+                tipoDoc_ TTipoDoc,
+            numeroDoc_ TNumeroDoc
     )
     AS
     BEGIN
@@ -192,20 +192,15 @@ CREATE OR REPLACE PACKAGE BODY PA_Usuario AS
     )
     AS
     BEGIN
-        NULL;
+        INSERT INTO ProductosEnCarrito VALUES (
+            carrito_,
+            producto_,
+            NULL,
+            cantidad_
+        );
     END AdProductoEnCarrito;
 
-    PROCEDURE ElProductoEnLista (
-        lista_ NUMBER,
-        producto_ NUMBER
-    )
-    AS
-    BEGIN
-        DELETE FROM ProductosEnLista
-        WHERE lista = lista_
-          AND producto = producto_;
-    END ElProductoEnLista;
-
+   
     FUNCTION CoProducto (
         idProducto_ NUMBER
     ) RETURN SYS_REFCURSOR
@@ -379,7 +374,106 @@ CREATE OR REPLACE PACKAGE BODY PA_Usuario AS
             WHERE categoria = categoria_;
         RETURN rc;
     END CoProductoEnCategoriaCategoria;
+    
+     PROCEDURE AdListaProductos (
+        nombre_ VARCHAR,
+        usuario_ NUMBER
+    )
+    AS
+        v_fecha DATE := SYSDATE;
+    BEGIN
+        INSERT INTO ListasProductos (
+            usuario, nombre, fechaCreacion, ultimaModificacion
+        )
+        VALUES (
+            usuario_, nombre_, v_fecha, v_fecha
+        );
+    END AdListaProductos;
+
+    
+    PROCEDURE ModListaProductosNombre (
+        idLista_ NUMBER,
+        nombre_ VARCHAR
+    )
+    AS
+    BEGIN
+        UPDATE ListasProductos
+        SET nombre = nombre_,
+            ultimaModificacion = SYSDATE
+        WHERE idLista = idLista_;
+    END ModListaProductosNombre;
+    
+     PROCEDURE ElListaProductos (
+        idLista_ NUMBER
+    )
+    AS
+    BEGIN
+        DELETE FROM ListasProductos
+        WHERE idLista = idLista_;
+        
+    END ElListaProductos;
+    
+        PROCEDURE AdProductoEnLista (
+        lista_ NUMBER,
+        producto_ NUMBER
+    )
+    AS
+    BEGIN
+        INSERT INTO ProductosEnLista (
+            lista, producto, fechaAnadido
+        )
+        VALUES (
+            lista_, producto_, SYSDATE
+        );
+    END AdProductoEnLista;
+
+    
+    PROCEDURE ElProductoEnLista (
+        lista_ NUMBER,
+        producto_ NUMBER
+    )
+    AS
+    BEGIN
+        DELETE FROM ProductosEnLista
+        WHERE lista = lista_
+          AND producto = producto_;
+    END ElProductoEnLista;
+
+    
+    FUNCTION CoProductoEnLista (
+        lista_ NUMBER,
+        producto_ NUMBER
+    ) RETURN SYS_REFCURSOR
+    AS
+        rc SYS_REFCURSOR;
+    BEGIN
+        OPEN rc FOR
+            SELECT *
+            FROM ProductosEnLista
+            WHERE lista = lista_
+              AND producto = producto_;
+        RETURN rc;
+    END CoProductoEnLista;
 END PA_Usuario;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 CREATE OR REPLACE PACKAGE BODY PA_Vendedor AS
     PROCEDURE AdUsuario(
@@ -575,7 +669,12 @@ CREATE OR REPLACE PACKAGE BODY PA_Vendedor AS
     )
     AS
     BEGIN
-        NULL;
+        INSERT INTO ProductosEnCarrito VALUES (
+            carrito_,
+            producto_,
+            NULL,
+            cantidad_
+        );
     END AdProductoEnCarrito;
 
     PROCEDURE ElProductoEnLista (
@@ -764,7 +863,7 @@ CREATE OR REPLACE PACKAGE BODY PA_Vendedor AS
     END CoProductoEnCategoriaCategoria;
 
     PROCEDURE AdProducto (
-        nombre_ NUMBER, 
+        nombre_ VARCHAR, 
         precio_ NUMBER,
         cantidadInventario_ NUMBER,
         cantidadDisponible_ NUMBER, 
@@ -772,7 +871,8 @@ CREATE OR REPLACE PACKAGE BODY PA_Vendedor AS
         especificaciones_ VARCHAR,
         tiempoGarantia_ TTiempoGarantia, 
         estado_ TEstadoProducto,
-        envioGratis_ TBoolean
+        envioGratis_ TBoolean,
+        vendedor_ NUMBER
     )
     AS
     BEGIN
@@ -796,7 +896,7 @@ CREATE OR REPLACE PACKAGE BODY PA_Vendedor AS
             especificaciones_,
             envioGratis_,
             estado_,
-            1 
+            vendedor_
         );
     END AdProducto;
 
@@ -1269,4 +1369,42 @@ CREATE OR REPLACE PACKAGE BODY PA_Administrador AS
             WHERE idVendedor = usuario_;
         RETURN rc;
     END CoVendedor;
+    
+         PROCEDURE AdListaProductos (
+        nombre_ VARCHAR,
+        usuario_ NUMBER
+    )
+    AS
+        v_fecha DATE := SYSDATE;
+    BEGIN
+        INSERT INTO ListasProductos (
+            usuario, nombre, fechaCreacion, ultimaModificacion
+        )
+        VALUES (
+            usuario_, nombre_, v_fecha, v_fecha
+        );
+    END AdListaProductos;
+
+    
+    PROCEDURE ModListaProductosNombre (
+        idLista_ NUMBER,
+        nombre_ VARCHAR
+    )
+    AS
+    BEGIN
+        UPDATE ListasProductos
+        SET nombre = nombre_,
+            ultimaModificacion = SYSDATE
+        WHERE idLista = idLista_;
+    END ModListaProductosNombre;
+    
+     PROCEDURE ElListaProductos (
+        idLista_ NUMBER
+    )
+    AS
+    BEGIN
+        DELETE FROM ListasProductos
+        WHERE idLista = idLista_;
+        
+    END ElListaProductos;
 END PA_Administrador;

@@ -24,7 +24,7 @@ CHECK (numeroDoc.numeroDoc >= 10000000);
 -- Direcciones
 
 ALTER TABLE Direcciones ADD CONSTRAINT ck_direcciones_telefono
-CHECK (telefonoContacto.telefono BETWEEN 3E9 AND (4E9 - 1));
+CHECK (telefonoContacto.telefono BETWEEN 3E9 AND (4E9 - 1))
 
 -- Tarjetas
 

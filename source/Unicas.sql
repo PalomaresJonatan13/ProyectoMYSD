@@ -21,4 +21,5 @@ CREATE UNIQUE INDEX uk_tarjetas ON Tarjetas (
 );
 
 ALTER TABLE ListasProductos
+
     ADD CONSTRAINT uk_listasProductos UNIQUE (usuario, nombre);
