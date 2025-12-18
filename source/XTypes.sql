@@ -1,0 +1,14 @@
+DROP TYPE TContrasena;
+DROP TYPE TEmail;
+DROP TYPE TEstadoProducto;
+DROP TYPE TNumeroDoc;
+DROP TYPE TCodigoSeguridad;
+DROP TYPE TNumeroTarjeta;
+DROP TYPE TPorcentaje;
+DROP TYPE TTelefono;
+DROP TYPE TTipoDoc;
+DROP TYPE TTipoTarjeta;
+DROP TYPE TBoolean;
+DROP TYPE TTiempoGarantia;
+DROP TYPE TCalificacion;
+DROP TYPE TURL;

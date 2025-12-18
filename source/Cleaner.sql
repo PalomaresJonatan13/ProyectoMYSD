@@ -1,17 +1,23 @@
--- Archivo creado para limpiar la base de datos despues de crear un test
--- con el proposito de tener un workspace limpio para el siguiente test
-
 -- Primero ejecutar XDisparadores.sql
 
+DELETE FROM Descuentos;
 DELETE FROM ProductosEnCategoria;
-DELETE FROM CategoriasProducto;
-DELETE FROM Promociones;
+DELETE FROM Seguimientos;
+DELETE FROM DireccionesFavoritas;
+DELETE FROM Resenas;
+DELETE FROM Respuestas;
+DELETE FROM Preguntas;
 DELETE FROM ProductosEnLista;
 DELETE FROM ProductosEnHistorialVisitas;
 DELETE FROM ProductosEnCarrito;
 DELETE FROM ListasProductos;
 DELETE FROM HistorialesVisitas;
 DELETE FROM CarritosCompras;
+DELETE FROM Promociones;
+DELETE FROM Publicaciones;
+DELETE FROM ImagenesDeProductos;
+DELETE FROM Imagenes;
+DELETE FROM CategoriasProducto;
 DELETE FROM Productos;
 DELETE FROM Vendedores;
 DELETE FROM Tarjetas;
@@ -26,3 +32,8 @@ ALTER TABLE Tarjetas MODIFY idTarjeta GENERATED ALWAYS AS IDENTITY RESTART START
 ALTER TABLE Productos MODIFY idProducto GENERATED ALWAYS AS IDENTITY RESTART START WITH 1;
 ALTER TABLE ListasProductos MODIFY idLista GENERATED ALWAYS AS IDENTITY RESTART START WITH 1;
 ALTER TABLE Promociones MODIFY idPromocion GENERATED ALWAYS AS IDENTITY RESTART START WITH 1;
+ALTER TABLE Publicaciones MODIFY idPublicacion GENERATED ALWAYS AS IDENTITY RESTART START WITH 1;
+ALTER TABLE Imagenes MODIFY idImagen GENERATED ALWAYS AS IDENTITY RESTART START WITH 1;
+ALTER TABLE ProductosEnHistorialVisitas MODIFY idProductoEnHistorial GENERATED ALWAYS AS IDENTITY RESTART START WITH 1;
+ALTER TABLE DireccionesFavoritas MODIFY idDireccionFavorita GENERATED ALWAYS AS IDENTITY RESTART START WITH 1;
+ALTER TABLE Seguimientos MODIFY idSeguimiento GENERATED ALWAYS AS IDENTITY RESTART START WITH 1;
